@@ -19,9 +19,78 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: jamesgeorge007/github-activity-readme@master
-        with:
-          COMMIT_MSG: "chore: update recent activity"
-          MAX_LINES: 8
+      - name: Render recent activity into README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, re, urllib.request
+
+          user = os.environ["GH_USER"]
+          req = urllib.request.Request(
+              f"https://api.github.com/users/{user}/events/public?per_page=100",
+              headers={
+                  "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+                  "User-Agent": "profile-activity",
+              })
+          events = json.load(urllib.request.urlopen(req))
+
+          lines, seen = [], set()
+
+          def repo_link(e):
+              n = e["repo"]["name"]
+              return f"[{n}](https://github.com/{n})"
+
+          for e in events:
+              t = e["type"]; p = e.get("payload") or {}; line = None
+              if t == "PushEvent":
+                  n = len(p.get("commits") or [])
+                  if n:
+                      line = f"⬆️ Pushed {n} commit{'s' if n > 1 else ''} to {repo_link(e)}"
+              elif t == "CreateEvent" and p.get("ref_type") == "repository":
+                  line = f"🎉 Created new repository {repo_link(e)}"
+              elif t == "WatchEvent":
+                  line = f"⭐ Starred {repo_link(e)}"
+              elif t == "ForkEvent":
+                  line = f"🍴 Forked {repo_link(e)}"
+              elif t == "ReleaseEvent" and p.get("action") == "published":
+                  line = f"🚀 Published release {p['release']['tag_name']} in {repo_link(e)}"
+              elif t == "IssuesEvent" and p.get("action") in ("opened", "closed"):
+                  i = p["issue"]; emoji = "❗️" if p["action"] == "opened" else "✅"
+                  line = f"{emoji} {p['action'].capitalize()} issue [#{i['number']}]({i['html_url']}) in {repo_link(e)}"
+              elif t == "PullRequestEvent" and p.get("action") in ("opened", "closed"):
+                  pr = p["pull_request"]
+                  if p["action"] == "opened":
+                      emoji, verb = "💪", "Opened"
+                  elif pr.get("merged"):
+                      emoji, verb = "🎯", "Merged"
+                  else:
+                      emoji, verb = "🗑", "Closed"
+                  line = f"{emoji} {verb} PR [#{pr['number']}]({pr['html_url']}) in {repo_link(e)}"
+              elif t == "IssueCommentEvent" and p.get("action") == "created":
+                  i = p["issue"]
+                  line = f"🗣 Commented on [#{i['number']}]({i['html_url']}) in {repo_link(e)}"
+              elif t == "PublicEvent":
+                  line = f"🔓 Made {repo_link(e)} public"
+              if line and line not in seen:
+                  seen.add(line); lines.append(line)
+              if len(lines) >= 8:
+                  break
+
+          body = "\n".join(f"{i+1}. {l}" for i, l in enumerate(lines)) or "_Quiet week — building in private._"
+          readme = open("README.md", encoding="utf-8").read()
+          new = re.sub(
+              r"(<!--START_SECTION:activity-->)(.*?)(<!--END_SECTION:activity-->)",
+              lambda m: m.group(1) + "\n" + body + "\n" + m.group(3),
+              readme, flags=re.S)
+          open("README.md", "w", encoding="utf-8", newline="\n").write(new)
+          print(body)
+          PYEOF
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || { git commit -m "chore: update recent activity"; git push; }
