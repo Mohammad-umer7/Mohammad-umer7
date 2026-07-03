@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="assets/banner-cartoon.svg" width="100%" alt="Mohammad Umer — Chief AI Officer @ Kanban Studios · Agentic AI · Full-Stack · Industry 4.0/5.0 · 6× competition podiums — playful cartoon banner with a smiling sun, happy laptop, friendly terminal, and a rocket" />
+<img src="assets/banner-cartoon-pro.svg" width="100%" alt="Mohammad Umer — Chief AI Officer @ Kanban Studios · agentic ai · full-stack · industry 4.0/5.0 · 6x competition podiums — polished cartoon banner with a smiling sun, laptop buddy, hovering AI robot, and a rocket" />
 
 <h3>Chief AI Officer @ Kanban Studios — I design multi-agent AI systems and ship them as real products.</h3>
 
