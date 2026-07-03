@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Mohammad Umer — Chief AI Officer @ Kanban Studios · Agentic AI · Full-Stack Engineering · Industry 4.0/5.0" />
+<img src="assets/hero.svg" width="100%" alt="Terminal boot: Mohammad Umer — Chief AI Officer @ Kanban Studios · Agentic AI · Full-Stack Engineering · Industry 4.0/5.0 · 6× competition podiums" />
 
 <h3>Chief AI Officer @ Kanban Studios — I design multi-agent AI systems and ship them as real products.</h3>
 
