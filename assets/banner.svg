@@ -1,83 +1,132 @@
-<svg width="1600" height="400" viewBox="0 0 1600 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mohammad Umer — Chief AI Officer at Kanban Studios. Agentic AI, Full-Stack Engineering, Industry 4.0/5.0. Abu Dhabi, UAE. Open to collaboration.">
-  <title>Mohammad Umer — Chief AI Officer @ Kanban Studios</title>
+<svg width="1600" height="480" viewBox="0 0 1600 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal boot sequence: Mohammad Umer — Chief AI Officer at Kanban Studios. Agentic AI, Full-Stack, Industry 4.0/5.0, 6 competition podiums.">
+  <title>umer@kanban-studios — boot sequence</title>
 
   <defs>
-    <pattern id="crosses" width="80" height="80" patternUnits="userSpaceOnUse">
-      <path d="M36 40 H44 M40 36 V44" stroke="#1c222b" stroke-width="1"/>
+    <clipPath id="winClip"><rect x="90" y="44" width="1420" height="400" rx="14"/></clipPath>
+    <clipPath id="cmd1Clip"><rect x="138" y="100" width="0" height="24">
+      <animate attributeName="width" values="0;28;56;84;112;140;168;196" calcMode="discrete" begin="0.7s" dur="1.3s" fill="freeze"/>
+    </rect></clipPath>
+    <clipPath id="cmd2Clip"><rect x="138" y="266" width="0" height="24">
+      <animate attributeName="width" values="0;19;37;56" calcMode="discrete" begin="3.95s" dur="0.55s" fill="freeze"/>
+    </rect></clipPath>
+
+    <pattern id="scanlines" width="4" height="3" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000000" opacity="0.22"/>
     </pattern>
+
+    <radialGradient id="crtVig" cx="0.5" cy="0.5" r="0.72">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.75" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.4"/>
+    </radialGradient>
+
+    <filter id="phosphor" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
   </defs>
 
   <style>
-    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
-    .mono { font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; }
-
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-    .f1,.f2,.f3,.f4,.f5,.f6,.f7 { animation: fadeUp .6s cubic-bezier(.22,.61,.36,1) both; }
-    .f1{animation-delay:.05s} .f2{animation-delay:.14s} .f3{animation-delay:.23s}
-    .f4{animation-delay:.32s} .f5{animation-delay:.41s} .f6{animation-delay:.50s} .f7{animation-delay:.59s}
+    text { font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; }
 
     @keyframes blink { 0%,54% { opacity: 1; } 55%,100% { opacity: 0; } }
-    .caret { animation: blink 1.2s steps(1) infinite; }
+    .caret { animation: blink 1.15s steps(1) infinite; }
 
-    @keyframes ping { 0% { opacity: .45; } 70%,100% { opacity: 0; } }
-    .ping { animation: ping 2.4s ease-out infinite; }
+    @keyframes twinkle { 0%,100% { opacity: .12; } 50% { opacity: .5; } }
+    .tw { animation: twinkle 4s ease-in-out infinite; }
+    .tw2 { animation-delay: -1.6s; animation-duration: 5.2s; }
+    .tw3 { animation-delay: -2.9s; }
 
-    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    @keyframes sweep { from { transform: translateY(-60px); } to { transform: translateY(420px); } }
+    .sweep { animation: sweep 8s linear infinite; animation-delay: 5s; }
+
+    @media (prefers-reduced-motion: reduce) { .sweep, .tw, .tw2, .tw3 { animation: none !important; } }
   </style>
 
-  <!-- background -->
-  <rect width="1600" height="400" fill="#0d1117"/>
-  <rect width="1600" height="400" fill="url(#crosses)"/>
-
-  <!-- crop marks -->
-  <g stroke="#30363d" stroke-width="1">
-    <path d="M24 44 V24 H44"/>
-    <path d="M1556 24 H1576 V44"/>
-    <path d="M24 356 V376 H44"/>
-    <path d="M1576 356 V376 H1556"/>
+  <!-- deep space backdrop -->
+  <rect width="1600" height="480" fill="#04070b"/>
+  <g fill="#7d9a8c">
+    <circle class="tw" cx="40" cy="24" r="1.2"/><circle cx="200" cy="20" r="0.9" opacity="0.25"/><circle class="tw2" cx="420" cy="28" r="1.1"/>
+    <circle cx="700" cy="16" r="0.9" opacity="0.2"/><circle class="tw3" cx="980" cy="26" r="1.2"/><circle cx="1240" cy="18" r="0.9" opacity="0.25"/>
+    <circle class="tw" cx="1480" cy="24" r="1.1"/><circle cx="1566" cy="120" r="0.9" opacity="0.2"/><circle class="tw2" cx="1572" cy="260" r="1.1"/>
+    <circle cx="1560" cy="400" r="0.9" opacity="0.25"/><circle class="tw3" cx="1500" cy="464" r="1.1"/><circle cx="1100" cy="468" r="0.9" opacity="0.2"/>
+    <circle class="tw" cx="700" cy="466" r="1.1"/><circle cx="300" cy="464" r="0.9" opacity="0.25"/><circle class="tw2" cx="60" cy="460" r="1.1"/>
+    <circle cx="26" cy="240" r="0.9" opacity="0.2"/><circle class="tw3" cx="24" cy="120" r="1"/><circle cx="1590" cy="470" r="0.8" opacity="0.2"/>
   </g>
 
-  <!-- ══ left: identity ══ -->
-  <rect class="f1" x="96" y="126" width="5" height="112" fill="#58a6ff"/>
+  <!-- window shadow + frame -->
+  <rect x="110" y="70" width="1380" height="380" rx="14" fill="#000000" opacity="0.55" filter="url(#softShadow)"/>
+  <rect x="90" y="44" width="1420" height="400" rx="14" fill="#0a0f0c" stroke="#1d2a22" stroke-width="1"/>
 
-  <text class="mono f2" x="122" y="142" font-size="14" letter-spacing="3" fill="#8b949e">// AI/ML &amp; SOFTWARE ENGINEER</text>
+  <!-- title bar -->
+  <path d="M90 58 Q90 44 104 44 H1496 Q1510 44 1510 58 V84 H90 Z" fill="#121713"/>
+  <line x1="90" y1="84" x2="1510" y2="84" stroke="#1d2a22" stroke-width="1"/>
+  <circle cx="112" cy="64" r="6.5" fill="#ff5f57"/>
+  <circle cx="134" cy="64" r="6.5" fill="#febc2e"/>
+  <circle cx="156" cy="64" r="6.5" fill="#28c840"/>
+  <text x="800" y="69" text-anchor="middle" font-size="13" fill="#58705e">umer@kanban-studios — ~/agents</text>
 
-  <text class="f3" x="118" y="218" font-size="92" font-weight="800" letter-spacing="-1" fill="#e6edf3">MOHAMMAD <tspan fill="none" stroke="#58a6ff" stroke-width="2">UMER</tspan></text>
+  <!-- ══ terminal content ══ -->
+  <g clip-path="url(#winClip)">
 
-  <text class="f4" x="122" y="262" font-size="25" font-weight="600" fill="#e6edf3">Chief AI Officer <tspan fill="#484f58" font-weight="400">@</tspan> <tspan fill="#58a6ff" font-weight="700">Kanban Studios</tspan></text>
+    <!-- L1: typed command -->
+    <text x="120" y="118" font-size="15" fill="#3fb950" opacity="0">$<animate attributeName="opacity" to="1" dur="0.01s" begin="0.35s" fill="freeze"/></text>
+    <g clip-path="url(#cmd1Clip)">
+      <text x="138" y="118" font-size="15" fill="#d8f3dc">./boot --profile umer</text>
+    </g>
 
-  <rect class="f5" x="122" y="288" width="700" height="1" fill="#30363d"/>
+    <!-- boot output -->
+    <text x="138" y="150" font-size="15" opacity="0" xml:space="preserve"><tspan fill="#9fb8a5">kanban.agents</tspan><tspan fill="#2f3d33"> ........................... [</tspan><tspan fill="#56d364" font-weight="700"> online </tspan><tspan fill="#2f3d33">]</tspan><animate attributeName="opacity" to="1" dur="0.01s" begin="2.3s" fill="freeze"/></text>
+    <text x="138" y="182" font-size="15" opacity="0" xml:space="preserve"><tspan fill="#9fb8a5">rag.pipeline</tspan><tspan fill="#2f3d33"> ............................ [</tspan><tspan fill="#56d364" font-weight="700"> ready  </tspan><tspan fill="#2f3d33">]</tspan><animate attributeName="opacity" to="1" dur="0.01s" begin="2.55s" fill="freeze"/></text>
+    <text x="138" y="214" font-size="15" opacity="0" xml:space="preserve"><tspan fill="#9fb8a5">industry-4.0 uplink</tspan><tspan fill="#2f3d33"> ..................... [</tspan><tspan fill="#56d364" font-weight="700"> linked </tspan><tspan fill="#2f3d33">]</tspan><animate attributeName="opacity" to="1" dur="0.01s" begin="2.8s" fill="freeze"/></text>
+    <text x="138" y="246" font-size="15" opacity="0" xml:space="preserve"><tspan fill="#9fb8a5">competition.podiums</tspan><tspan fill="#2f3d33"> ..................... [</tspan><tspan fill="#56d364" font-weight="700"> 6x     </tspan><tspan fill="#2f3d33">]</tspan><animate attributeName="opacity" to="1" dur="0.01s" begin="3.05s" fill="freeze"/></text>
 
-  <text class="mono f6" x="122" y="322" font-size="14" letter-spacing="2" fill="#8b949e">AGENTIC AI <tspan fill="#30363d">/</tspan> FULL-STACK <tspan fill="#30363d">/</tspan> INDUSTRY 4.0/5.0 <tspan fill="#30363d">/</tspan> 6× COMPETITION PODIUMS <tspan class="caret" fill="#58a6ff">▍</tspan></text>
+    <!-- L6: whoami -->
+    <text x="120" y="284" font-size="15" fill="#3fb950" opacity="0">$<animate attributeName="opacity" to="1" dur="0.01s" begin="3.8s" fill="freeze"/></text>
+    <g clip-path="url(#cmd2Clip)">
+      <text x="138" y="284" font-size="15" fill="#d8f3dc">whoami</text>
+    </g>
 
-  <!-- ══ right: spec card ══ -->
-  <g class="f7">
-    <rect x="1070" y="88" width="436" height="224" rx="8" fill="#10151c" stroke="#30363d" stroke-width="1"/>
-    <rect x="1084" y="80" width="100" height="16" fill="#0d1117"/>
-    <text class="mono" x="1092" y="93" font-size="13" letter-spacing="2" fill="#8b949e">// PROFILE</text>
+    <!-- THE ANSWER -->
+    <text x="118" y="352" font-size="84" font-weight="800" letter-spacing="2" fill="#7ee787" filter="url(#phosphor)"><tspan opacity="0">M<animate attributeName="opacity" to="1" dur="0.01s" begin="4.75s" fill="freeze"/></tspan><tspan opacity="0">O<animate attributeName="opacity" to="1" dur="0.01s" begin="4.815s" fill="freeze"/></tspan><tspan opacity="0">H<animate attributeName="opacity" to="1" dur="0.01s" begin="4.88s" fill="freeze"/></tspan><tspan opacity="0">A<animate attributeName="opacity" to="1" dur="0.01s" begin="4.945s" fill="freeze"/></tspan><tspan opacity="0">M<animate attributeName="opacity" to="1" dur="0.01s" begin="5.01s" fill="freeze"/></tspan><tspan opacity="0">M<animate attributeName="opacity" to="1" dur="0.01s" begin="5.075s" fill="freeze"/></tspan><tspan opacity="0">A<animate attributeName="opacity" to="1" dur="0.01s" begin="5.14s" fill="freeze"/></tspan><tspan opacity="0">D<animate attributeName="opacity" to="1" dur="0.01s" begin="5.205s" fill="freeze"/></tspan><tspan opacity="0" dx="46">U<animate attributeName="opacity" to="1" dur="0.01s" begin="5.27s" fill="freeze"/></tspan><tspan opacity="0">M<animate attributeName="opacity" to="1" dur="0.01s" begin="5.335s" fill="freeze"/></tspan><tspan opacity="0">E<animate attributeName="opacity" to="1" dur="0.01s" begin="5.4s" fill="freeze"/></tspan><tspan opacity="0">R<animate attributeName="opacity" to="1" dur="0.01s" begin="5.465s" fill="freeze"/></tspan></text>
 
-    <line x1="1196" y1="112" x2="1196" y2="288" stroke="#21262d" stroke-width="1"/>
+    <!-- role + tags -->
+    <text x="120" y="394" font-size="22" opacity="0"><tspan fill="#c8e6cd">chief ai officer</tspan><tspan fill="#58705e"> @ </tspan><tspan fill="#56d364" font-weight="700">kanban studios</tspan><animate attributeName="opacity" to="1" dur="0.01s" begin="5.95s" fill="freeze"/></text>
+    <text x="120" y="422" font-size="14.5" opacity="0"><tspan fill="#6b8272">agentic ai · full-stack · industry 4.0/5.0 · founder @ xpbridge</tspan><tspan class="caret" fill="#56d364"> ▊</tspan><animate attributeName="opacity" to="1" dur="0.01s" begin="6.35s" fill="freeze"/></text>
 
-    <text class="mono" x="1094" y="134" font-size="14" letter-spacing="1" fill="#6e7681">ROLE</text>
-    <text class="mono" x="1212" y="134" font-size="14.5" fill="#e6edf3">Chief AI Officer</text>
+    <!-- ══ live system monitor ══ -->
+    <g opacity="0">
+      <animate attributeName="opacity" to="1" dur="0.01s" begin="3.4s" fill="freeze"/>
+      <text x="1060" y="124" font-size="14" letter-spacing="2" fill="#58705e">LIVE SYSTEMS</text>
 
-    <text class="mono" x="1094" y="172" font-size="14" letter-spacing="1" fill="#6e7681">COMPANY</text>
-    <text class="mono" x="1212" y="172" font-size="14.5" fill="#58a6ff">Kanban Studios</text>
+      <text x="1060" y="161" font-size="14" fill="#6b8272">agents</text>
+      <rect x="1164" y="151" width="240" height="10" rx="5" fill="#16211a"/>
+      <rect x="1164" y="151" width="221" height="10" rx="5" fill="#2ea043">
+        <animate attributeName="width" values="215;227;215" dur="3.2s" begin="3.4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="1416" y="161" font-size="14" fill="#56d364">92%</text>
 
-    <text class="mono" x="1094" y="210" font-size="14" letter-spacing="1" fill="#6e7681">FOCUS</text>
-    <text class="mono" x="1212" y="210" font-size="14.5" fill="#e6edf3">Agentic AI · RAG</text>
+      <text x="1060" y="203" font-size="14" fill="#6b8272">rag</text>
+      <rect x="1164" y="193" width="240" height="10" rx="5" fill="#16211a"/>
+      <rect x="1164" y="193" width="202" height="10" rx="5" fill="#2ea043">
+        <animate attributeName="width" values="196;208;196" dur="4.1s" begin="3.6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="1416" y="203" font-size="14" fill="#56d364">84%</text>
 
-    <text class="mono" x="1094" y="248" font-size="14" letter-spacing="1" fill="#6e7681">BASE</text>
-    <text class="mono" x="1212" y="248" font-size="14.5" fill="#e6edf3">Abu Dhabi, UAE</text>
+      <text x="1060" y="245" font-size="14" fill="#6b8272">shipping</text>
+      <rect x="1164" y="235" width="240" height="10" rx="5" fill="#16211a"/>
+      <rect x="1164" y="235" width="237" height="10" rx="5" fill="#2ea043">
+        <animate attributeName="width" values="231;239;231" dur="2.7s" begin="3.8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="1416" y="245" font-size="14" fill="#56d364">99%</text>
+    </g>
 
-    <text class="mono" x="1094" y="286" font-size="14" letter-spacing="1" fill="#6e7681">STATUS</text>
-    <circle class="ping" cx="1218" cy="281" r="9" fill="#3fb950"/>
-    <circle cx="1218" cy="281" r="4" fill="#3fb950"/>
-    <text class="mono" x="1234" y="286" font-size="14.5" fill="#3fb950">Open to collaboration</text>
+    <!-- CRT dressing -->
+    <rect class="sweep" x="92" y="44" width="1416" height="56" fill="#7ee787" opacity="0.03"/>
+    <rect x="90" y="44" width="1420" height="400" rx="14" fill="url(#scanlines)"/>
+    <rect x="90" y="44" width="1420" height="400" rx="14" fill="url(#crtVig)"/>
   </g>
-
-  <!-- ══ bottom title block ══ -->
-  <line x1="40" y1="352" x2="1560" y2="352" stroke="#21262d" stroke-width="1"/>
-  <text class="mono" x="96" y="378" font-size="12" letter-spacing="1" fill="#6e7681">github.com/Mohammad-umer7</text>
-  <text class="mono" x="1504" y="378" font-size="12" letter-spacing="1" fill="#6e7681" text-anchor="end">BUILT TO SHIP — NOT JUST DEMO</text>
 </svg>
