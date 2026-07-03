@@ -71,6 +71,7 @@
     <path id="pk2" d="M1120 320 L1265 293 L1410 265 L1478 222"/>
     <path id="pk3" d="M1120 210 L1265 183 L1410 210 L1478 214"/>
     <path id="pk4" d="M1120 155 L1265 238 L1410 265 L1478 222"/>
+    <path id="framePath" d="M26 10 H1574 Q1590 10 1590 26 V394 Q1590 410 1574 410 H26 Q10 410 10 394 V26 Q10 10 26 10 Z"/>
   </defs>
 
   <style>
@@ -122,12 +123,29 @@
     @keyframes haloPing { 0% { opacity: .55; transform: scale(.6); } 80%,100% { opacity: 0; transform: scale(2.1); } }
     .halo { transform-box: fill-box; transform-origin: center; animation: haloPing 2s ease-out infinite; }
 
+    @keyframes twinkle { 0%,100% { opacity: .12; } 50% { opacity: .8; } }
+    .stars circle { animation: twinkle 3.2s ease-in-out infinite; }
+    .stars circle:nth-child(2n) { animation-delay: -1.3s; }
+    .stars circle:nth-child(3n) { animation-delay: -2.1s; animation-duration: 4.4s; }
+    .stars circle:nth-child(5n) { animation-duration: 5.2s; }
+
+    @keyframes glitch { 0%, 90.8%, 93.4%, 100% { opacity: 0; } 91.2%, 92% { opacity: .85; } 92.5%, 93.1% { opacity: .4; } }
+    .gl { animation: glitch 7s linear infinite; }
+    .gl2 { animation-delay: -3.4s; }
+
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
 
   <!-- ═ background ═ -->
   <rect width="1600" height="420" fill="url(#bg)"/>
   <rect width="1600" height="420" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <!-- starfield -->
+  <g class="stars" fill="#b7cdf1">
+    <circle cx="140" cy="60" r="1.4"/><circle cx="260" cy="150" r="1.1"/><circle cx="420" cy="80" r="1.5"/><circle cx="560" cy="50" r="1.2"/><circle cx="640" cy="150" r="1"/><circle cx="760" cy="90" r="1.4"/>
+    <circle cx="880" cy="160" r="1.1"/><circle cx="990" cy="60" r="1.3"/><circle cx="1010" cy="250" r="1"/><circle cx="340" cy="250" r="1.2"/><circle cx="210" cy="320" r="1"/><circle cx="720" cy="240" r="1.1"/>
+    <circle cx="1080" cy="150" r="1.2"/><circle cx="1560" cy="180" r="1.3"/><circle cx="1370" cy="330" r="1.1"/><circle cx="1240" cy="40" r="1.2"/><circle cx="1500" cy="270" r="1"/><circle cx="1050" cy="390" r="1.2"/>
+  </g>
 
   <!-- aurora orbs -->
   <g filter="url(#blur60)">
@@ -146,6 +164,17 @@
     <path class="bracket" d="M1546 392 H1564 Q1572 392 1572 384 V366"/>
   </g>
 
+  <!-- perimeter frame + comets -->
+  <rect x="10" y="10" width="1580" height="400" rx="16" stroke="url(#accentG)" stroke-opacity="0.16" stroke-width="1.5" fill="none"/>
+  <g filter="url(#glowS)">
+    <circle r="3" fill="#7dd3fc">
+      <animateMotion dur="15s" repeatCount="indefinite"><mpath href="#framePath"/></animateMotion>
+    </circle>
+    <circle r="2.6" fill="#f9a8d4">
+      <animateMotion dur="15s" begin="-7.5s" repeatCount="indefinite"><mpath href="#framePath"/></animateMotion>
+    </circle>
+  </g>
+
   <!-- orbital rings -->
   <g>
     <circle cx="1300" cy="210" r="180" stroke="url(#accentG)" stroke-opacity="0.18" stroke-width="1.4" stroke-dasharray="3 6" fill="none"/>
@@ -153,6 +182,10 @@
     <g>
       <circle cx="1480" cy="210" r="4.5" fill="#f472b6" filter="url(#glowS)"/>
       <animateTransform attributeName="transform" type="rotate" from="0 1300 210" to="360 1300 210" dur="24s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="1442" cy="210" r="3.2" fill="#22d3ee" filter="url(#glowS)"/>
+      <animateTransform attributeName="transform" type="rotate" from="360 1300 210" to="0 1300 210" dur="17s" repeatCount="indefinite"/>
     </g>
   </g>
 
@@ -235,6 +268,8 @@
   </text>
 
   <g class="e2">
+    <text class="gl" x="92" y="210" font-size="86" font-weight="800" letter-spacing="2" fill="#22d3ee" opacity="0">MOHAMMAD UMER</text>
+    <text class="gl gl2" x="101" y="215" font-size="86" font-weight="800" letter-spacing="2" fill="#ec4899" opacity="0">MOHAMMAD UMER</text>
     <text x="96" y="212" font-size="86" font-weight="800" letter-spacing="2" fill="url(#accentG)" filter="url(#blur16)" opacity="0.5">MOHAMMAD UMER</text>
     <text x="96" y="212" font-size="86" font-weight="800" letter-spacing="2" fill="url(#titleG)">MOHAMMAD UMER</text>
     <text x="96" y="212" font-size="86" font-weight="800" letter-spacing="2" fill="url(#shine)">MOHAMMAD UMER</text>
@@ -242,7 +277,11 @@
 
   <text class="e3" x="96" y="260" font-size="30" font-weight="600" fill="#e8eef9">Chief AI Officer <tspan fill="#64748b">@</tspan> <tspan fill="url(#kanbanG)" font-weight="800">Kanban Studios</tspan></text>
 
-  <text class="e4" x="96" y="299" font-size="19" letter-spacing="2" fill="#8b9bb4">AI/ML &amp; SOFTWARE ENGINEER · INDUSTRY 4.0/5.0 · FOUNDER @ XPBRIDGE</text>
+  <g class="e4">
+    <text x="96" y="299" font-size="19" letter-spacing="2" fill="#8b9bb4" opacity="1">AI/ML &amp; SOFTWARE ENGINEER · INDUSTRY 4.0/5.0 · FOUNDER @ XPBRIDGE<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.3;0.34;0.966;1" dur="15s" repeatCount="indefinite"/></text>
+    <text x="96" y="299" font-size="19" letter-spacing="2" fill="#8b9bb4" opacity="0">KANBAN AGENTS · RAG &amp; DOC INTELLIGENCE · AI SAFETY · SAAS<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3;0.34;0.633;0.667;1" dur="15s" repeatCount="indefinite"/></text>
+    <text x="96" y="299" font-size="19" letter-spacing="2" fill="#8b9bb4" opacity="0">LANGGRAPH · NEXT.JS · FASTAPI · SUPABASE · EDGE GROUP R&amp;D<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.633;0.667;0.966;1" dur="15s" repeatCount="indefinite"/></text>
+  </g>
 
   <!-- pills -->
   <g class="e5">
@@ -258,8 +297,8 @@
     <text x="605" y="358" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#93c5fd">FULL-STACK</text>
   </g>
   <g class="e8">
-    <rect x="690" y="330" width="246" height="44" rx="22" fill="rgba(236,72,153,0.08)" stroke="#ec4899" stroke-opacity="0.55" stroke-width="1.3"/>
-    <text x="813" y="358" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#f9a8d4">4× HACKATHON PODIUMS</text>
+    <rect x="690" y="330" width="260" height="44" rx="22" fill="rgba(236,72,153,0.08)" stroke="#ec4899" stroke-opacity="0.55" stroke-width="1.3"/>
+    <text x="820" y="358" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#f9a8d4">6× COMPETITION PODIUMS</text>
   </g>
 
   <!-- bottom accent bar -->

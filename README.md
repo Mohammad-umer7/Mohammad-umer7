@@ -46,6 +46,8 @@
 
 <br/>
 
+<img src="assets/divider.svg" width="100%" alt="" />
+
 ## 🧭 About Me
 
 I'm a Software Engineering student in Abu Dhabi who builds AI products the whole way through — data, models, agents, backend, frontend, deployment — not just notebooks.
@@ -55,7 +57,7 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 - 🚀 **Founder & CTO of XPBridge** — a mobile app I designed, built, and shipped solo to the **Google Play Store**.
 - 🤖 My specialty is **agentic AI that can be trusted**: multi-agent pipelines with deterministic guardrails, compliance critics that can veto, fairness checks, and immutable audit logs — the boring parts done right.
 - 🎓 BSc Software Engineering @ **Al Ain University** (expected 2027) — **CGPA 3.73 / 4.00**, named to the **Honor List three consecutive semesters**.
-- 🏆 **2× 1st place, 1× 2nd, 1× 3rd** across UAE hackathons — including G42's Tamkeen 5.0 (Agentic AI track).
+- 🏆 **6× competition podiums & honors** across UAE tech events — 2× 1st place (incl. G42's Tamkeen 5.0, Agentic AI track), 1× 2nd, 1× 3rd, plus finalist & championship recognition.
 - 🌍 I work in English, Urdu, Hindi and Pashto (fluent), plus basic Arabic — and I ship bilingual EN/AR interfaces by default.
 
 ## 🛠️ What I Build
@@ -224,6 +226,12 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 
 ## 🏆 Hackathon / Competition Builds
 
+<div align="center">
+
+<img src="assets/awards.svg" width="100%" alt="Competition record: 2× 1st place (Tamkeen 5.0, Replit × IEC), 2nd place (SooqRoot), 3rd place (Kanban Team), Finalist (Common Ground), Recognized (Create Apps Championship)" />
+
+</div>
+
 > 6+ competition builds across agentic AI, safety tech, sustainability, and fintech — in front of some of the UAE's toughest judging panels.
 
 | Result | Event | Build | What it does |
@@ -266,6 +274,8 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 **🧪 Playground**
 - [`research`](https://github.com/Mohammad-umer7/research) — active experiments and scratch work
 
+<img src="assets/divider.svg" width="100%" alt="" />
+
 ## 📊 GitHub Signals
 
 <div align="center">
@@ -289,12 +299,27 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 <br/><br/>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mohammad-umer7/Mohammad-umer7/output/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mohammad-umer7/Mohammad-umer7/output/profile-season-animate.svg" />
+  <img src="https://raw.githubusercontent.com/Mohammad-umer7/Mohammad-umer7/output/profile-night-rainbow.svg" width="94%" alt="3D contribution graph" />
+</picture>
+
+<br/><br/>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mohammad-umer7/Mohammad-umer7/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mohammad-umer7/Mohammad-umer7/output/github-contribution-grid-snake.svg" />
   <img src="https://raw.githubusercontent.com/Mohammad-umer7/Mohammad-umer7/output/github-contribution-grid-snake-dark.svg" width="94%" alt="contribution snake" />
 </picture>
 
 </div>
+
+## ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<sub>⏱ auto-refreshes every 6 hours via GitHub Actions</sub>
 
 ## 🌳 Featured Repo Map
 
@@ -324,6 +349,8 @@ Mohammad-umer7 · GitHub Ecosystem
 └── 🧪 Playground
     └── research             → active experiments
 ```
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🤝 Let's Build Something
 
