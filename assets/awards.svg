@@ -1,4 +1,4 @@
-<svg width="1600" height="336" viewBox="0 0 1600 336" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Competition record: 1st place Tamkeen 5.0, 1st place Replit x IEC Buildathon, 2nd place Emirates Agriculture Hackathon, 3rd place c0mpiled-2, Finalist Global Build Challenge, Recognized Create Apps Championship">
+<svg width="1000" height="560" viewBox="0 0 1000 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Competition record: 1st place Tamkeen 5.0, 1st place Replit x IEC Buildathon, 2nd place Emirates Agriculture Hackathon, 3rd place c0mpiled-2, Finalist Global Build Challenge, Recognized Create Apps Championship">
   <title>Competition Record — 6 podiums and honors</title>
 
   <defs>
@@ -21,8 +21,8 @@
 
   <style>
     text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
-    @keyframes riseIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-    .tile { animation: riseIn .7s cubic-bezier(.22,.61,.36,1) both; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .tile { animation: fadeUp .7s cubic-bezier(.22,.61,.36,1) both; }
     .t1{animation-delay:.05s} .t2{animation-delay:.15s} .t3{animation-delay:.25s}
     .t4{animation-delay:.35s} .t5{animation-delay:.45s} .t6{animation-delay:.55s}
     @keyframes spark { 0%,100% { opacity: .15; } 50% { opacity: .95; } }
@@ -31,85 +31,86 @@
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
 
-  <!-- ── Row 1 ── -->
-  <g class="tile t1" transform="translate(25,20)">
-    <rect width="504" height="140" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
-    <rect x="0" y="0" width="5" height="140" rx="2.5" fill="url(#mGold)"/>
-    <path d="M56 24 H70 L66 52 H54 Z" fill="#263250"/>
-    <path d="M70 24 H84 L86 52 H74 Z" fill="#1d2b4a"/>
-    <circle cx="70" cy="82" r="32" fill="url(#mGold)" stroke="#0c1222" stroke-width="2"/>
-    <circle cx="70" cy="82" r="24" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.2" stroke-dasharray="2 4"/>
-    <text x="70" y="92" text-anchor="middle" font-size="27" font-weight="800" fill="#422006">1</text>
-    <path class="spk" transform="translate(98,52)" d="M0 -6 L1.7 -1.7 L6 0 L1.7 1.7 L0 6 L-1.7 1.7 L-6 0 L-1.7 -1.7 Z" fill="#ffffff"/>
-    <text x="122" y="50" font-size="13.5" font-weight="700" letter-spacing="0.8" fill="#dbe4f3">TAMKEEN 5.0 — G42 × AD YOUTH COUNCIL</text>
-    <text x="122" y="79" font-size="17" font-weight="800" fill="#fcd34d">Agentic Refund Intelligence</text>
-    <text x="122" y="104" font-size="12.5" fill="#8b9bb4">1st Place · Advanced Track · Agentic AI</text>
-  </g>
+  <!-- Row 1: gold, gold -->
+  <g transform="translate(10,10)"><g class="tile t1">
+    <rect width="480" height="160" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
+    <rect x="0" y="0" width="5" height="160" rx="2.5" fill="url(#mGold)"/>
+    <path d="M46 22 H58 L55 50 H44 Z" fill="#263250"/>
+    <path d="M58 22 H70 L72 50 H61 Z" fill="#1d2b4a"/>
+    <circle cx="58" cy="86" r="34" fill="url(#mGold)" stroke="#0c1222" stroke-width="2"/>
+    <circle cx="58" cy="86" r="25" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.2" stroke-dasharray="2 4"/>
+    <text x="58" y="96" text-anchor="middle" font-size="28" font-weight="800" fill="#422006">1</text>
+    <path class="spk" transform="translate(86,52)" d="M0 -6 L1.7 -1.7 L6 0 L1.7 1.7 L0 6 L-1.7 1.7 L-6 0 L-1.7 -1.7 Z" fill="#ffffff"/>
+    <text x="110" y="52" font-size="14" font-weight="700" letter-spacing="0.6" fill="#dbe4f3">TAMKEEN 5.0 — G42 × AD YOUTH COUNCIL</text>
+    <text x="110" y="84" font-size="19" font-weight="800" fill="#fcd34d">Agentic Refund Intelligence</text>
+    <text x="110" y="112" font-size="13" fill="#8b9bb4">1st Place · Advanced Track · Agentic AI</text>
+  </g></g>
 
-  <g class="tile t2" transform="translate(547,20)">
-    <rect width="504" height="140" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
-    <rect x="0" y="0" width="5" height="140" rx="2.5" fill="url(#mGold)"/>
-    <path d="M56 24 H70 L66 52 H54 Z" fill="#263250"/>
-    <path d="M70 24 H84 L86 52 H74 Z" fill="#1d2b4a"/>
-    <circle cx="70" cy="82" r="32" fill="url(#mGold)" stroke="#0c1222" stroke-width="2"/>
-    <circle cx="70" cy="82" r="24" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.2" stroke-dasharray="2 4"/>
-    <text x="70" y="92" text-anchor="middle" font-size="27" font-weight="800" fill="#422006">1</text>
-    <path class="spk spk2" transform="translate(98,52)" d="M0 -6 L1.7 -1.7 L6 0 L1.7 1.7 L0 6 L-1.7 1.7 L-6 0 L-1.7 -1.7 Z" fill="#ffffff"/>
-    <text x="122" y="50" font-size="13.5" font-weight="700" letter-spacing="0.8" fill="#dbe4f3">REPLIT × IEC BUILDATHON — MBZUAI</text>
-    <text x="122" y="79" font-size="17" font-weight="800" fill="#fcd34d">Starkz AI</text>
-    <text x="122" y="104" font-size="12.5" fill="#8b9bb4">1st Place · AI safety companion for outdoor crews</text>
-  </g>
+  <g transform="translate(510,10)"><g class="tile t2">
+    <rect width="480" height="160" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
+    <rect x="0" y="0" width="5" height="160" rx="2.5" fill="url(#mGold)"/>
+    <path d="M46 22 H58 L55 50 H44 Z" fill="#263250"/>
+    <path d="M58 22 H70 L72 50 H61 Z" fill="#1d2b4a"/>
+    <circle cx="58" cy="86" r="34" fill="url(#mGold)" stroke="#0c1222" stroke-width="2"/>
+    <circle cx="58" cy="86" r="25" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.2" stroke-dasharray="2 4"/>
+    <text x="58" y="96" text-anchor="middle" font-size="28" font-weight="800" fill="#422006">1</text>
+    <path class="spk spk2" transform="translate(86,52)" d="M0 -6 L1.7 -1.7 L6 0 L1.7 1.7 L0 6 L-1.7 1.7 L-6 0 L-1.7 -1.7 Z" fill="#ffffff"/>
+    <text x="110" y="52" font-size="14" font-weight="700" letter-spacing="0.6" fill="#dbe4f3">REPLIT × IEC BUILDATHON — MBZUAI</text>
+    <text x="110" y="84" font-size="19" font-weight="800" fill="#fcd34d">Starkz AI</text>
+    <text x="110" y="112" font-size="13" fill="#8b9bb4">1st Place · AI safety companion for outdoor crews</text>
+  </g></g>
 
-  <g class="tile t3" transform="translate(1069,20)">
-    <rect width="504" height="140" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
-    <rect x="0" y="0" width="5" height="140" rx="2.5" fill="url(#mSilver)"/>
-    <path d="M56 24 H70 L66 52 H54 Z" fill="#263250"/>
-    <path d="M70 24 H84 L86 52 H74 Z" fill="#1d2b4a"/>
-    <circle cx="70" cy="82" r="32" fill="url(#mSilver)" stroke="#0c1222" stroke-width="2"/>
-    <circle cx="70" cy="82" r="24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" stroke-dasharray="2 4"/>
-    <text x="70" y="92" text-anchor="middle" font-size="27" font-weight="800" fill="#1e293b">2</text>
-    <text x="122" y="50" font-size="13.5" font-weight="700" letter-spacing="0.8" fill="#dbe4f3">EMIRATES AGRICULTURE HACKATHON 2026</text>
-    <text x="122" y="79" font-size="17" font-weight="800" fill="#cbd5e1">SooqRoot</text>
-    <text x="122" y="104" font-size="12.5" fill="#8b9bb4">2nd Place · awarded by the UAE Minister of Climate Change</text>
-  </g>
+  <!-- Row 2: silver, bronze -->
+  <g transform="translate(10,190)"><g class="tile t3">
+    <rect width="480" height="160" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
+    <rect x="0" y="0" width="5" height="160" rx="2.5" fill="url(#mSilver)"/>
+    <path d="M46 22 H58 L55 50 H44 Z" fill="#263250"/>
+    <path d="M58 22 H70 L72 50 H61 Z" fill="#1d2b4a"/>
+    <circle cx="58" cy="86" r="34" fill="url(#mSilver)" stroke="#0c1222" stroke-width="2"/>
+    <circle cx="58" cy="86" r="25" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" stroke-dasharray="2 4"/>
+    <text x="58" y="96" text-anchor="middle" font-size="28" font-weight="800" fill="#1e293b">2</text>
+    <text x="110" y="52" font-size="14" font-weight="700" letter-spacing="0.6" fill="#dbe4f3">EMIRATES AGRICULTURE HACKATHON 2026</text>
+    <text x="110" y="84" font-size="19" font-weight="800" fill="#e2e8f0">SooqRoot</text>
+    <text x="110" y="112" font-size="13" fill="#8b9bb4">2nd Place · awarded by UAE Climate Minister</text>
+  </g></g>
 
-  <!-- ── Row 2 ── -->
-  <g class="tile t4" transform="translate(25,176)">
-    <rect width="504" height="140" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
-    <rect x="0" y="0" width="5" height="140" rx="2.5" fill="url(#mBronze)"/>
-    <path d="M56 24 H70 L66 52 H54 Z" fill="#263250"/>
-    <path d="M70 24 H84 L86 52 H74 Z" fill="#1d2b4a"/>
-    <circle cx="70" cy="82" r="32" fill="url(#mBronze)" stroke="#0c1222" stroke-width="2"/>
-    <circle cx="70" cy="82" r="24" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.2" stroke-dasharray="2 4"/>
-    <text x="70" y="92" text-anchor="middle" font-size="27" font-weight="800" fill="#431407">3</text>
-    <text x="122" y="50" font-size="13.5" font-weight="700" letter-spacing="0.8" fill="#dbe4f3">C0MPILED-2 — YAS MARINA CIRCUIT</text>
-    <text x="122" y="79" font-size="17" font-weight="800" fill="#fdba74">Kanban Team</text>
-    <text x="122" y="104" font-size="12.5" fill="#8b9bb4">3rd Place · 60+ submissions · real-estate compliance engine</text>
-  </g>
+  <g transform="translate(510,190)"><g class="tile t4">
+    <rect width="480" height="160" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
+    <rect x="0" y="0" width="5" height="160" rx="2.5" fill="url(#mBronze)"/>
+    <path d="M46 22 H58 L55 50 H44 Z" fill="#263250"/>
+    <path d="M58 22 H70 L72 50 H61 Z" fill="#1d2b4a"/>
+    <circle cx="58" cy="86" r="34" fill="url(#mBronze)" stroke="#0c1222" stroke-width="2"/>
+    <circle cx="58" cy="86" r="25" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.2" stroke-dasharray="2 4"/>
+    <text x="58" y="96" text-anchor="middle" font-size="28" font-weight="800" fill="#431407">3</text>
+    <text x="110" y="52" font-size="14" font-weight="700" letter-spacing="0.6" fill="#dbe4f3">C0MPILED-2 HACKATHON — UAE</text>
+    <text x="110" y="84" font-size="19" font-weight="800" fill="#fdba74">Kanban Team</text>
+    <text x="110" y="112" font-size="13" fill="#8b9bb4">3rd Place · Yas Marina Circuit · 60+ submissions</text>
+  </g></g>
 
-  <g class="tile t5" transform="translate(547,176)">
-    <rect width="504" height="140" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
-    <rect x="0" y="0" width="5" height="140" rx="2.5" fill="url(#mSteel)"/>
-    <path d="M56 24 H70 L66 52 H54 Z" fill="#263250"/>
-    <path d="M70 24 H84 L86 52 H74 Z" fill="#1d2b4a"/>
-    <circle cx="70" cy="82" r="32" fill="url(#mSteel)" stroke="#0c1222" stroke-width="2"/>
-    <circle cx="70" cy="82" r="24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" stroke-dasharray="2 4"/>
-    <text x="70" y="90" text-anchor="middle" font-size="22" font-weight="800" fill="#eff6ff">★</text>
-    <text x="122" y="50" font-size="13.5" font-weight="700" letter-spacing="0.8" fill="#dbe4f3">GLOBAL BUILD CHALLENGE — SOCIA</text>
-    <text x="122" y="79" font-size="17" font-weight="800" fill="#93c5fd">Common Ground</text>
-    <text x="122" y="104" font-size="12.5" fill="#8b9bb4">Finalist · Notch Launch 2026 · real-time message reframing</text>
-  </g>
+  <!-- Row 3: finalist, recognized -->
+  <g transform="translate(10,370)"><g class="tile t5">
+    <rect width="480" height="160" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
+    <rect x="0" y="0" width="5" height="160" rx="2.5" fill="url(#mSteel)"/>
+    <path d="M46 22 H58 L55 50 H44 Z" fill="#263250"/>
+    <path d="M58 22 H70 L72 50 H61 Z" fill="#1d2b4a"/>
+    <circle cx="58" cy="86" r="34" fill="url(#mSteel)" stroke="#0c1222" stroke-width="2"/>
+    <circle cx="58" cy="86" r="25" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" stroke-dasharray="2 4"/>
+    <text x="58" y="94" text-anchor="middle" font-size="23" font-weight="800" fill="#eff6ff">★</text>
+    <text x="110" y="52" font-size="14" font-weight="700" letter-spacing="0.6" fill="#dbe4f3">GLOBAL BUILD CHALLENGE — SOCIA</text>
+    <text x="110" y="84" font-size="19" font-weight="800" fill="#93c5fd">Common Ground</text>
+    <text x="110" y="112" font-size="13" fill="#8b9bb4">Finalist · Notch Launch 2026</text>
+  </g></g>
 
-  <g class="tile t6" transform="translate(1069,176)">
-    <rect width="504" height="140" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
-    <rect x="0" y="0" width="5" height="140" rx="2.5" fill="url(#mViolet)"/>
-    <path d="M56 24 H70 L66 52 H54 Z" fill="#263250"/>
-    <path d="M70 24 H84 L86 52 H74 Z" fill="#1d2b4a"/>
-    <circle cx="70" cy="82" r="32" fill="url(#mViolet)" stroke="#0c1222" stroke-width="2"/>
-    <circle cx="70" cy="82" r="24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" stroke-dasharray="2 4"/>
-    <text x="70" y="90" text-anchor="middle" font-size="22" font-weight="800" fill="#f5f3ff">◆</text>
-    <text x="122" y="50" font-size="13.5" font-weight="700" letter-spacing="0.8" fill="#dbe4f3">CREATE APPS CHAMPIONSHIP 2025–26</text>
-    <text x="122" y="79" font-size="17" font-weight="800" fill="#c4b5fd">Team Mobile App</text>
-    <text x="122" y="104" font-size="12.5" fill="#8b9bb4">Recognized · Dubai Chamber of Digital Economy</text>
-  </g>
+  <g transform="translate(510,370)"><g class="tile t6">
+    <rect width="480" height="160" rx="18" fill="#0c1222" stroke="#1e2a44" stroke-width="1.2"/>
+    <rect x="0" y="0" width="5" height="160" rx="2.5" fill="url(#mViolet)"/>
+    <path d="M46 22 H58 L55 50 H44 Z" fill="#263250"/>
+    <path d="M58 22 H70 L72 50 H61 Z" fill="#1d2b4a"/>
+    <circle cx="58" cy="86" r="34" fill="url(#mViolet)" stroke="#0c1222" stroke-width="2"/>
+    <circle cx="58" cy="86" r="25" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" stroke-dasharray="2 4"/>
+    <text x="58" y="94" text-anchor="middle" font-size="23" font-weight="800" fill="#f5f3ff">◆</text>
+    <text x="110" y="52" font-size="14" font-weight="700" letter-spacing="0.6" fill="#dbe4f3">CREATE APPS CHAMPIONSHIP 2025–26</text>
+    <text x="110" y="84" font-size="19" font-weight="800" fill="#c4b5fd">Team Mobile App</text>
+    <text x="110" y="112" font-size="13" fill="#8b9bb4">Recognized · Dubai Chamber of Digital Economy</text>
+  </g></g>
 </svg>
