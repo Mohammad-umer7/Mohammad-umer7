@@ -317,6 +317,10 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
+1. 🔓 Made [Mohammad-umer7/cognee](https://github.com/Mohammad-umer7/cognee) public
+2. ⭐ Starred [topoteretes/cognee](https://github.com/topoteretes/cognee)
+3. 🔓 Made [Mohammad-umer7/finance](https://github.com/Mohammad-umer7/finance) public
+4. 🔓 Made [Mohammad-umer7/housing](https://github.com/Mohammad-umer7/housing) public
 <!--END_SECTION:activity-->
 
 <sub>⏱ auto-refreshes every 6 hours via GitHub Actions</sub>
