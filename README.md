@@ -5,13 +5,13 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:24283b,100:414868&height=200&section=header&text=Mohammad%20Umer&fontSize=60&fontColor=c0caf5&animation=fadeIn&fontAlignY=38&desc=Agentic%20AI%20%C2%B7%20Full-Stack%20Engineering%20%C2%B7%20Industry%204.0&descSize=18&descAlignY=60" width="100%" alt="banner" />
+<img src="assets/banner.svg" width="100%" alt="Mohammad Umer — Chief AI Officer @ Kanban Studios · Agentic AI · Full-Stack Engineering · Industry 4.0/5.0" />
 
-<h3>AI/ML & Software Engineer — I design multi-agent AI systems and ship them as real products.</h3>
+<h3>Chief AI Officer @ Kanban Studios — I design multi-agent AI systems and ship them as real products.</h3>
 
-<p>Govtech decision engines · voice assistants · RAG systems · industrial automation — built end-to-end, deployed, and auditable.</p>
+<p>Agentic workflows · RAG & document intelligence · govtech decision engines · voice AI · industrial automation — built end-to-end, deployed, and auditable.</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=620&lines=Agentic+AI+%C2%B7+LangGraph+%C2%B7+RAG+%C2%B7+Voice+AI;Full-Stack+%C2%B7+Next.js+%C2%B7+FastAPI+%C2%B7+Supabase;Industry+4.0%2F5.0+Automation+%40+EDGE+Group;2%C3%97+1st-Place+Hackathon+Winner;Founder+%26+CTO+%40+XPBridge" alt="typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=620&lines=Chief+AI+Officer+%40+Kanban+Studios;Agentic+AI+%C2%B7+LangGraph+%C2%B7+RAG+%C2%B7+Voice+AI;Full-Stack+%C2%B7+Next.js+%C2%B7+FastAPI+%C2%B7+Supabase;Industry+4.0%2F5.0+Automation+%40+EDGE+Group;2%C3%97+1st-Place+Hackathon+Winner;Founder+%26+CTO+%40+XPBridge" alt="typing intro" />
 
 <br/><br/>
 
@@ -34,6 +34,7 @@
 
 <!-- ── Quick Identity Badges ────────────────────────────────────── -->
 
+<img src="https://img.shields.io/badge/Chief%20AI%20Officer%20%40%20Kanban%20Studios-EC4899?style=flat-square" alt="Chief AI Officer" />
 <img src="https://img.shields.io/badge/Agentic%20AI-7C3AED?style=flat-square" alt="Agentic AI" />
 <img src="https://img.shields.io/badge/AI%20%2F%20ML-1F6FEB?style=flat-square" alt="AI/ML" />
 <img src="https://img.shields.io/badge/Full--Stack-2EA043?style=flat-square" alt="Full-Stack" />
@@ -49,10 +50,11 @@
 
 I'm a Software Engineering student in Abu Dhabi who builds AI products the whole way through — data, models, agents, backend, frontend, deployment — not just notebooks.
 
+- 🧠 **Chief AI Officer @ Kanban Studios** — leading the AI product arm: a productized AI-service catalog, RAG & document-intelligence workflows, the **Kanban Agents** autonomous-automation infrastructure, AI-safety frameworks, and Stripe-ready SaaS.
 - 🔬 **Visiting Researcher — Mixed Reality & Automation** at **BRIDGE (EDGE Group)**, working on an Industry 4.0/5.0 smart-warehouse platform: real-time HMIs, a Three.js digital twin, sensor-connected Raspberry Pis, and ML forecasting.
 - 🚀 **Founder & CTO of XPBridge** — a mobile app I designed, built, and shipped solo to the **Google Play Store**.
 - 🤖 My specialty is **agentic AI that can be trusted**: multi-agent pipelines with deterministic guardrails, compliance critics that can veto, fairness checks, and immutable audit logs — the boring parts done right.
-- 🎓 BSc Software Engineering @ **Al Ain University** (expected 2027) — **CGPA 3.73 / 4.00**, Honors List.
+- 🎓 BSc Software Engineering @ **Al Ain University** (expected 2027) — **CGPA 3.73 / 4.00**, named to the **Honor List three consecutive semesters**.
 - 🏆 **2× 1st place, 1× 2nd, 1× 3rd** across UAE hackathons — including G42's Tamkeen 5.0 (Agentic AI track).
 - 🌍 I work in English, Urdu, Hindi and Pashto (fluent), plus basic Arabic — and I ship bilingual EN/AR interfaces by default.
 
@@ -119,12 +121,21 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 
 ## 🎯 Current Focus
 
+- 🧠 Building Kanban Studios' core AI capability as **Chief AI Officer** — shaping the AI service catalog, next-gen **RAG & document-intelligence** demos, the **Kanban Agents** infrastructure, AI-safety frameworks, and Stripe-ready SaaS products.
 - 🏭 Advancing the **ASRS platform** and industrial-automation R&D as a Visiting Researcher at **BRIDGE (EDGE Group)** — real-time sensor connectivity, machine communication, and smart-automation systems.
 - 🧠 Going deeper on **agent architectures**: LangGraph state machines, tool subgraphs, and the **Model Context Protocol** (4 Anthropic certifications, May 2026).
 - 📱 Growing **XPBridge** post-launch — new AI features, retention, and store performance.
 - 🎓 On track to graduate in **2027**; aiming at agentic-AI and full-stack engineering roles where systems must be **fast, bilingual, and auditable**.
 
 ## 🎓 Education & Experience
+
+**🧠 Kanban Studios — Chief AI Officer (CAIO)** *(Jul 2026 – Present)* — leading AI strategy and engineering for the studio:
+
+- **Productizing AI services** — a robust AI service catalog, from bespoke automation systems to intelligent business tools.
+- **Next-gen AI demos** — cutting-edge **Retrieval-Augmented Generation (RAG)** models and advanced document-intelligence workflows.
+- **Agentic workflows** — enhancing the **Kanban Agents** infrastructure for autonomous, high-efficiency business automation.
+- **AI safety & risk mitigation** — frameworks that keep every deployed model secure, compliant, and reliable.
+- **Stripe-ready SaaS** — scalable commercial software products built for global monetization.
 
 **🔬 BRIDGE — EDGE Group PJSC** · Abu Dhabi · *10 months, 3 progressive roles*
 
@@ -219,8 +230,8 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 |---|---|---|---|
 | 🥇 **1st Place** (Advanced Track) | **Tamkeen 5.0 Hackathon** — G42 × Abu Dhabi Youth Council | **Agentic Refund Intelligence** | Fraud-aware AI layer for e-commerce: investigates refund/payment disputes, scores risk, applies policy, and routes high-risk cases to humans with a full audit trail. Recognized in the presence of H.H. Sheikh Mohammed bin Khalifa Al Nahyan and H.E. Dr. Sultan Al Neyadi. [Post →](https://www.linkedin.com/feed/update/urn:li:activity:7474723190653583360/) |
 | 🥇 **1st Place** | **Replit × IEC Buildathon** — MBZUAI IEC | **Starkz AI** | Mobile AI safety companion for outdoor crews in extreme heat: real-time risk intelligence, fatigue monitoring, climate thresholds, multilingual alerts. [Post →](https://www.linkedin.com/feed/update/urn:li:activity:7471965008135049216/) |
-| 🥈 **2nd Place** | **Emirates Agriculture Conference & Exhibition Hackathon 2026** | **SooqRoot** | Tech-driven solution for UAE sustainability and food security — award presented by H.E. Dr. Amna bint Abdullah Al Dahak, UAE Minister of Climate Change & Environment. [Post →](https://www.linkedin.com/feed/update/urn:li:activity:7454563261393362946/) |
-| 🥉 **3rd Place** | **c0mpiled-2 UAE Hackathon** — Yas Marina Circuit (60+ teams, 150+ participants) | **Kanban Team** | Compliance-first workflow engine for fractional / tokenized real-estate transactions. [Post →](https://www.linkedin.com/feed/update/urn:li:activity:7429379549936635904/) |
+| 🥈 **2nd Place** | **Emirates Agriculture Conference & Exhibition Hackathon 2026** — farm-to-market innovation sprint | **SooqRoot** | Tech-driven solution for UAE sustainability and food security — award presented by H.E. Dr. Amna bint Abdullah Al Dahak, UAE Minister of Climate Change & Environment. [Post →](https://www.linkedin.com/feed/update/urn:li:activity:7454563261393362946/) |
+| 🥉 **3rd Place** | **c0mpiled-2 UAE Hackathon** — Yas Marina Circuit (60+ submissions, 150+ participants) | **Kanban Team** | Compliance-first workflow engine simplifying fractional / tokenized real-estate transactions — replacing fragmented manual processes with a single auditable system. [Post →](https://www.linkedin.com/feed/update/urn:li:activity:7429379549936635904/) |
 | 🎖️ **Finalist** | **Global Build Challenge** — Socia (Notch Launch, 2026) | **Common Ground** | AI that auto-reframes messages between technical and executive audiences in real time, preserving intent. [Post →](https://www.linkedin.com/feed/update/urn:li:activity:7447561958754557952/) |
 | 🎖️ **Recognized** | **Create Apps Championship 2025–26** — Dubai Chamber of Digital Economy | Team mobile app | Notable contribution in a team-based mobile app development competition. |
 
@@ -259,12 +270,13 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Mohammad-umer7&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" height="165" alt="GitHub stats" />
-<img src="https://streak-stats.demolab.com?user=Mohammad-umer7&theme=tokyonight&hide_border=true" height="165" alt="streak" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mohammad-umer7&theme=tokyonight" height="185" alt="GitHub stats" />
+<img src="https://streak-stats.demolab.com?user=Mohammad-umer7&theme=tokyonight&hide_border=true&background=1A1B26" height="185" alt="contribution streak" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammad-umer7&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="160" alt="top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mohammad-umer7&theme=tokyonight" height="185" alt="top languages by repo" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mohammad-umer7&theme=tokyonight" height="185" alt="top languages by commit" />
 
 <br/><br/>
 
@@ -273,6 +285,14 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohammad-umer7&theme=tokyo-night&hide_border=true&area=true" width="94%" alt="contribution graph" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mohammad-umer7/Mohammad-umer7/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mohammad-umer7/Mohammad-umer7/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Mohammad-umer7/Mohammad-umer7/output/github-contribution-grid-snake-dark.svg" width="94%" alt="contribution snake" />
+</picture>
 
 </div>
 
@@ -318,6 +338,6 @@ I'm open to conversations with **recruiters**, **founders**, **engineers**, **re
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:414868,50:24283b,100:1a1b26&height=120&section=footer" width="100%" alt="footer" />
+<img src="assets/footer.svg" width="100%" alt="footer" />
 
 </div>

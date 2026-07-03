@@ -1,0 +1,269 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mohammad Umer — Chief AI Officer at Kanban Studios. Agentic AI, Full-Stack Engineering, Industry 4.0/5.0">
+  <title>Mohammad Umer — Chief AI Officer @ Kanban Studios</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04060f"/>
+      <stop offset="0.55" stop-color="#0a0e20"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </linearGradient>
+
+    <linearGradient id="accentG" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="titleG" x1="96" y1="140" x2="940" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.42" stop-color="#7dd3fc"/>
+      <stop offset="0.72" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+
+    <linearGradient id="kanbanG" x1="350" y1="0" x2="660" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-320 0" to="1150 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="runnerG" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="oCyan"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="oViolet"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="oBlue"><stop offset="0" stop-color="#3b82f6" stop-opacity="0.3"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="oMag"><stop offset="0" stop-color="#ec4899" stop-opacity="0.32"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.78">
+      <stop offset="0" stop-color="#04060f" stop-opacity="0"/>
+      <stop offset="0.72" stop-color="#04060f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04060f" stop-opacity="0.66"/>
+    </radialGradient>
+
+    <linearGradient id="gm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a3a"/>
+      <stop offset="1" stop-color="#d8d8d8"/>
+    </linearGradient>
+    <mask id="gridMask"><rect x="0" y="0" width="1600" height="420" fill="url(#gm)"/></mask>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#8ea2c0" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+
+    <filter id="blur60" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
+    <filter id="blur16" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="glowS" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <path id="pk1" d="M1120 100 L1265 128 L1410 155 L1478 206"/>
+    <path id="pk2" d="M1120 320 L1265 293 L1410 265 L1478 222"/>
+    <path id="pk3" d="M1120 210 L1265 183 L1410 210 L1478 214"/>
+    <path id="pk4" d="M1120 155 L1265 238 L1410 265 L1478 222"/>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; }
+
+    @keyframes riseIn { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+    .e1,.e2,.e3,.e4,.e5,.e6,.e7,.e8 { animation: riseIn .8s cubic-bezier(.22,.61,.36,1) both; }
+    .e1{animation-delay:.05s} .e2{animation-delay:.18s} .e3{animation-delay:.32s} .e4{animation-delay:.46s}
+    .e5{animation-delay:.60s} .e6{animation-delay:.72s} .e7{animation-delay:.84s} .e8{animation-delay:.96s}
+
+    @keyframes blink { 0%,54% { opacity: 1; } 55%,100% { opacity: 0; } }
+    .blink { animation: blink 1.15s steps(1) infinite; }
+
+    @keyframes dashMove { to { stroke-dashoffset: -140; } }
+    .trace { animation: dashMove 9s linear infinite; }
+    .trace2 { animation: dashMove 13s linear infinite; }
+
+    @keyframes floatY { from { transform: translateY(-9px); } to { transform: translateY(7px); } }
+    .fl { animation: floatY 7s ease-in-out infinite alternate; }
+    .fl2 { animation-duration: 8.5s; animation-delay: -2s; }
+    .fl3 { animation-duration: 6.2s; animation-delay: -4s; }
+    .fl4 { animation-duration: 9.3s; animation-delay: -1s; }
+    .fl5 { animation-duration: 7.6s; animation-delay: -3s; }
+
+    @keyframes pulse { 0%,100% { opacity: .28; } 50% { opacity: .95; } }
+    .nodes circle { animation: pulse 2.6s ease-in-out infinite; }
+    .nodes circle:nth-child(3n)   { animation-delay: -0.8s; }
+    .nodes circle:nth-child(3n+1) { animation-delay: -1.7s; }
+    .nodes circle:nth-child(4n)   { animation-duration: 3.4s; }
+
+    @keyframes drift1 { from { transform: translate(0,0); } to { transform: translate(-34px,22px); } }
+    @keyframes drift2 { from { transform: translate(0,0); } to { transform: translate(28px,-18px); } }
+    @keyframes drift3 { from { transform: translate(0,0); } to { transform: translate(20px,14px); } }
+    .orb1 { animation: drift1 17s ease-in-out infinite alternate; }
+    .orb2 { animation: drift2 22s ease-in-out infinite alternate; }
+    .orb3 { animation: drift3 26s ease-in-out infinite alternate; }
+    .orb4 { animation: drift2 19s ease-in-out infinite alternate-reverse; }
+
+    @keyframes runner { from { transform: translateX(0); } to { transform: translateX(1860px); } }
+    .runner { animation: runner 5s linear infinite; }
+
+    @keyframes chipGlow { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+    .chip { animation: chipGlow 2.8s ease-in-out infinite; }
+
+    @keyframes drawIn { from { stroke-dashoffset: 90; } to { stroke-dashoffset: 0; } }
+    .bracket { stroke-dasharray: 90; animation: drawIn 1.1s ease-out .15s both; }
+
+    @keyframes haloPing { 0% { opacity: .55; transform: scale(.6); } 80%,100% { opacity: 0; transform: scale(2.1); } }
+    .halo { transform-box: fill-box; transform-origin: center; animation: haloPing 2s ease-out infinite; }
+
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- ═ background ═ -->
+  <rect width="1600" height="420" fill="url(#bg)"/>
+  <rect width="1600" height="420" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <!-- aurora orbs -->
+  <g filter="url(#blur60)">
+    <ellipse class="orb1" cx="1170" cy="70" rx="230" ry="150" fill="url(#oCyan)"/>
+    <ellipse class="orb2" cx="1450" cy="340" rx="210" ry="160" fill="url(#oViolet)"/>
+    <ellipse class="orb3" cx="290" cy="350" rx="240" ry="150" fill="url(#oBlue)"/>
+    <ellipse class="orb4" cx="880" cy="50" rx="150" ry="110" fill="url(#oMag)"/>
+  </g>
+  <rect width="1600" height="420" fill="url(#vig)"/>
+
+  <!-- corner HUD brackets -->
+  <g stroke="url(#accentG)" stroke-width="2" stroke-linecap="round" opacity="0.55" fill="none">
+    <path class="bracket" d="M28 54 V36 Q28 28 36 28 H54"/>
+    <path class="bracket" d="M1546 28 H1564 Q1572 28 1572 36 V54"/>
+    <path class="bracket" d="M28 366 V384 Q28 392 36 392 H54"/>
+    <path class="bracket" d="M1546 392 H1564 Q1572 392 1572 384 V366"/>
+  </g>
+
+  <!-- orbital rings -->
+  <g>
+    <circle cx="1300" cy="210" r="180" stroke="url(#accentG)" stroke-opacity="0.18" stroke-width="1.4" stroke-dasharray="3 6" fill="none"/>
+    <circle cx="1300" cy="210" r="142" stroke="#7dd3fc" stroke-opacity="0.10" stroke-width="1" stroke-dasharray="1 7" fill="none"/>
+    <g>
+      <circle cx="1480" cy="210" r="4.5" fill="#f472b6" filter="url(#glowS)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 1300 210" to="360 1300 210" dur="24s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- neural network -->
+  <g stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1">
+    <path d="M1120 100 L1265 128"/><path d="M1120 155 L1265 128"/><path d="M1120 210 L1265 128"/>
+    <path d="M1120 155 L1265 183"/><path d="M1120 210 L1265 183"/><path d="M1120 265 L1265 183"/>
+    <path d="M1120 210 L1265 238"/><path d="M1120 265 L1265 238"/><path d="M1120 320 L1265 238"/>
+    <path d="M1120 265 L1265 293"/><path d="M1120 320 L1265 293"/><path d="M1120 100 L1265 293"/>
+    <path d="M1265 128 L1410 155"/><path d="M1265 183 L1410 155"/><path d="M1265 238 L1410 155"/>
+    <path d="M1265 183 L1410 210"/><path d="M1265 238 L1410 210"/><path d="M1265 128 L1410 210"/>
+    <path d="M1265 238 L1410 265"/><path d="M1265 293 L1410 265"/><path d="M1265 183 L1410 265"/>
+    <path d="M1410 155 L1478 206"/><path d="M1410 210 L1478 214"/><path d="M1410 265 L1478 222"/>
+  </g>
+
+  <!-- data packets -->
+  <g filter="url(#glowS)">
+    <circle r="3.4" fill="#67e8f9">
+      <animateMotion dur="3.4s" begin="-0.4s" repeatCount="indefinite"><mpath href="#pk1"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="3.4s" begin="-0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.4" fill="#c4b5fd">
+      <animateMotion dur="4.1s" begin="-1.6s" repeatCount="indefinite"><mpath href="#pk2"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="4.1s" begin="-1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#f9a8d4">
+      <animateMotion dur="3.8s" begin="-2.4s" repeatCount="indefinite"><mpath href="#pk3"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="3.8s" begin="-2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.8" fill="#93c5fd">
+      <animateMotion dur="4.6s" begin="-3.1s" repeatCount="indefinite"><mpath href="#pk4"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="4.6s" begin="-3.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- nodes -->
+  <g class="nodes" fill="#38bdf8">
+    <circle cx="1120" cy="100" r="5"/><circle cx="1120" cy="155" r="5"/><circle cx="1120" cy="210" r="5"/><circle cx="1120" cy="265" r="5"/><circle cx="1120" cy="320" r="5"/>
+    <circle cx="1265" cy="128" r="5" fill="#a78bfa"/><circle cx="1265" cy="183" r="5" fill="#a78bfa"/><circle cx="1265" cy="238" r="5" fill="#a78bfa"/><circle cx="1265" cy="293" r="5" fill="#a78bfa"/>
+    <circle cx="1410" cy="155" r="5" fill="#f472b6"/><circle cx="1410" cy="210" r="5" fill="#f472b6"/><circle cx="1410" cy="265" r="5" fill="#f472b6"/>
+  </g>
+
+  <!-- AI core chip -->
+  <g>
+    <rect class="chip" x="1474" y="182" width="64" height="64" rx="15" fill="none" stroke="url(#accentG)" stroke-width="2" filter="url(#glowS)"/>
+    <rect x="1474" y="182" width="64" height="64" rx="15" fill="#0b1224" stroke="#334155" stroke-width="1"/>
+    <text x="1506" y="223" text-anchor="middle" font-size="21" font-weight="800" fill="url(#kanbanG)">AI</text>
+    <path d="M1490 182 V170 M1506 182 V170 M1522 182 V170 M1490 246 V258 M1506 246 V258 M1522 246 V258 M1538 198 H1550 M1538 214 H1550 M1538 230 H1550" stroke="#475569" stroke-width="1.6"/>
+  </g>
+
+  <!-- circuit traces -->
+  <g stroke="url(#accentG)" fill="none" stroke-width="1.5">
+    <path class="trace" d="M0 390 H300 L316 402 H520" stroke-opacity="0.4" stroke-dasharray="5 9"/>
+    <path class="trace2" d="M0 402 H180 L196 390 H288" stroke-opacity="0.25" stroke-dasharray="5 9"/>
+    <path class="trace2" d="M0 54 H120 L136 70 H220" stroke-opacity="0.22" stroke-dasharray="5 9"/>
+  </g>
+  <circle cx="520" cy="402" r="2.6" fill="#22d3ee" opacity="0.8"/>
+  <circle cx="288" cy="390" r="2.4" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="220" cy="70" r="2.4" fill="#22d3ee" opacity="0.6"/>
+
+  <!-- floating glyphs -->
+  <g class="mono" fill="#7dd3fc">
+    <text class="fl"     x="940"  y="120" font-size="22" opacity="0.13">&lt;/&gt;</text>
+    <text class="fl fl2" x="1052" y="352" font-size="24" opacity="0.12">{ }</text>
+    <text class="fl fl3" x="1500" y="336" font-size="20" opacity="0.11" text-anchor="end">ƒ(x)</text>
+    <text class="fl fl4" x="886"  y="246" font-size="26" opacity="0.10">Σ</text>
+    <text class="fl fl5" x="1518" y="104" font-size="22" opacity="0.12">∇</text>
+  </g>
+
+  <!-- status — top right -->
+  <g>
+    <circle class="halo" cx="1330" cy="57" r="7" fill="#34d399"/>
+    <circle cx="1330" cy="57" r="4" fill="#34d399" filter="url(#glowS)"/>
+    <text class="mono" x="1552" y="62" text-anchor="end" font-size="13" letter-spacing="2.5" fill="#86efac">OPEN TO COLLABORATION</text>
+  </g>
+
+  <!-- ═ text block ═ -->
+  <text class="mono e1" x="96" y="112" font-size="21">
+    <tspan fill="#7dd3fc">umer@kanban-studios</tspan><tspan fill="#64748b">:</tspan><tspan fill="#a78bfa">~</tspan><tspan fill="#64748b">$</tspan><tspan fill="#e8eef9"> whoami</tspan><tspan class="blink" fill="#7dd3fc"> ▊</tspan>
+  </text>
+
+  <g class="e2">
+    <text x="96" y="212" font-size="86" font-weight="800" letter-spacing="2" fill="url(#accentG)" filter="url(#blur16)" opacity="0.5">MOHAMMAD UMER</text>
+    <text x="96" y="212" font-size="86" font-weight="800" letter-spacing="2" fill="url(#titleG)">MOHAMMAD UMER</text>
+    <text x="96" y="212" font-size="86" font-weight="800" letter-spacing="2" fill="url(#shine)">MOHAMMAD UMER</text>
+  </g>
+
+  <text class="e3" x="96" y="260" font-size="30" font-weight="600" fill="#e8eef9">Chief AI Officer <tspan fill="#64748b">@</tspan> <tspan fill="url(#kanbanG)" font-weight="800">Kanban Studios</tspan></text>
+
+  <text class="e4" x="96" y="299" font-size="19" letter-spacing="2" fill="#8b9bb4">AI/ML &amp; SOFTWARE ENGINEER · INDUSTRY 4.0/5.0 · FOUNDER @ XPBRIDGE</text>
+
+  <!-- pills -->
+  <g class="e5">
+    <rect x="96" y="330" width="142" height="44" rx="22" fill="rgba(34,211,238,0.07)" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="1.3"/>
+    <text x="167" y="358" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#7dd3fc">AGENTIC AI</text>
+  </g>
+  <g class="e6">
+    <rect x="252" y="330" width="268" height="44" rx="22" fill="rgba(139,92,246,0.08)" stroke="#8b5cf6" stroke-opacity="0.55" stroke-width="1.3"/>
+    <text x="386" y="358" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#c4b5fd">RAG &amp; DOC INTELLIGENCE</text>
+  </g>
+  <g class="e7">
+    <rect x="534" y="330" width="142" height="44" rx="22" fill="rgba(96,165,250,0.08)" stroke="#60a5fa" stroke-opacity="0.55" stroke-width="1.3"/>
+    <text x="605" y="358" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#93c5fd">FULL-STACK</text>
+  </g>
+  <g class="e8">
+    <rect x="690" y="330" width="246" height="44" rx="22" fill="rgba(236,72,153,0.08)" stroke="#ec4899" stroke-opacity="0.55" stroke-width="1.3"/>
+    <text x="813" y="358" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#f9a8d4">4× HACKATHON PODIUMS</text>
+  </g>
+
+  <!-- bottom accent bar -->
+  <rect x="0" y="412" width="1600" height="8" fill="url(#accentG)" opacity="0.28" filter="url(#blur16)"/>
+  <rect x="0" y="414" width="1600" height="6" fill="url(#accentG)" opacity="0.9"/>
+  <rect class="runner" x="-260" y="414" width="260" height="6" fill="url(#runnerG)"/>
+</svg>
