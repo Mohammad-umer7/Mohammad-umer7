@@ -76,7 +76,56 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 
 <div align="center">
 
-<img src="assets/stack.svg" width="100%" alt="Tech stack — Languages: Python, TypeScript, JavaScript, Java, C++, HTML, CSS · AI/ML and Agents: PyTorch, TensorFlow, scikit-learn, OpenCV, LangChain, LangGraph, Hugging Face, Groq, Gemini API, XGBoost, ChromaDB, Pandas, NumPy · Frontend and Mobile: React, Next.js, Svelte, Tailwind CSS, Three.js, React Native Expo · Backend and Data: FastAPI, Node.js, Express, PostgreSQL, MySQL, Supabase, REST APIs, WebSockets, Zod · Cloud, DevOps and Hardware: Docker, Vercel, Git, GitHub Actions, Linux, Raspberry Pi, Hugging Face Spaces, mTLS and RBAC · Tools and Design: Figma, VS Code, MATLAB, Node-RED" />
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=python,ts,js,java,cpp,html,css" alt="languages" />
+
+**AI / ML**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv" alt="ai-ml icons" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" alt="Groq" />
+<img src="https://img.shields.io/badge/Gemini%20API-4285F4?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+<img src="https://img.shields.io/badge/XGBoost-EB0028?style=flat-square" alt="XGBoost" />
+<img src="https://img.shields.io/badge/ChromaDB-5E35B1?style=flat-square" alt="ChromaDB" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+
+**Frontend & Mobile**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,svelte,tailwind,threejs" alt="frontend icons" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/React%20Native%20%C2%B7%20Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+
+**Backend & Data**
+
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mysql,supabase" alt="backend icons" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/REST%20APIs-2ea043?style=flat-square" alt="REST" />
+<img src="https://img.shields.io/badge/WebSockets-333333?style=flat-square" alt="WebSockets" />
+<img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod" />
+
+**Cloud · DevOps · Hardware**
+
+<img src="https://skillicons.dev/icons?i=docker,vercel,git,github,linux,raspberrypi" alt="devops icons" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Hugging%20Face%20Spaces-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HF Spaces" />
+<img src="https://img.shields.io/badge/mTLS%20%C2%B7%20RBAC%20%C2%B7%20Rate%20Limiting-0F766E?style=flat-square" alt="security" />
+
+**Tools & Design**
+
+<img src="https://skillicons.dev/icons?i=figma,vscode,matlab" alt="tools icons" />
 
 </div>
 
