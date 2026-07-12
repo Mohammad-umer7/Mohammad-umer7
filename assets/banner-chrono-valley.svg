@@ -797,7 +797,7 @@
   <!-- ═ MOON (drifts across the night on the master clock) ═ -->
   <g class="phNight">
     <g>
-      <animateMotion path="M 720 260 Q 1160 -160 1600 260" dur="36s" repeatCount="indefinite"
+      <animateMotion path="M 700 210 Q 1160 -120 1600 210" dur="36s" repeatCount="indefinite"
         keyTimes="0;0.58;0.96;1" keyPoints="0;0;1;1" calcMode="linear"/>
       <circle r="48" fill="url(#moonHaloG)"/>
       <circle r="24" fill="#F4F2E4" stroke="#D8D4C0" stroke-width="1.5"/>
