@@ -1,0 +1,391 @@
+﻿<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aurora Nexus banner: Mohammad Umer — Chief AI Officer at Kanban Studios. Agentic AI, full-stack, Industry 4.0/5.0, 6x competition podiums. A floating isometric tech island projects the name as a hologram into an aurora-lit cosmos, with data bridges, a drone, a wind turbine and a ringed planet.">
+  <title>Mohammad Umer — aurora nexus hologram banner</title>
+
+  <defs>
+    <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070B24"/>
+      <stop offset="0.5" stop-color="#131347"/>
+      <stop offset="0.78" stop-color="#2A1458"/>
+      <stop offset="1" stop-color="#431B6B"/>
+    </linearGradient>
+    <radialGradient id="nebP"><stop offset="0" stop-color="#FF5FD2" stop-opacity="0.15"/><stop offset="1" stop-color="#FF5FD2" stop-opacity="0"/></radialGradient>
+    <radialGradient id="nebC"><stop offset="0" stop-color="#4DA8FF" stop-opacity="0.13"/><stop offset="1" stop-color="#4DA8FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="nebV"><stop offset="0" stop-color="#8B5CFF" stop-opacity="0.13"/><stop offset="1" stop-color="#8B5CFF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="horizG"><stop offset="0" stop-color="#8B5CFF" stop-opacity="0.5"/><stop offset="1" stop-color="#8B5CFF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="fogG"><stop offset="0" stop-color="#6C2BD9" stop-opacity="0.4"/><stop offset="1" stop-color="#6C2BD9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="padG"><stop offset="0" stop-color="#59F3FF" stop-opacity="0.35"/><stop offset="1" stop-color="#59F3FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="underG"><stop offset="0" stop-color="#59F3FF" stop-opacity="0.28"/><stop offset="1" stop-color="#59F3FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="vignG" cx="0.5" cy="0.45" r="0.8">
+      <stop offset="0" stop-color="#04061A" stop-opacity="0"/>
+      <stop offset="0.68" stop-color="#04061A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04061A" stop-opacity="0.6"/>
+    </radialGradient>
+    <linearGradient id="aurG1" x1="0" y1="0" x2="0" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4DFFDF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#4DFFDF" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="aurG2" x1="0" y1="0" x2="0" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#8B5CFF" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="beamG" x1="0" y1="40" x2="0" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#59F3FF" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#59F3FF" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#7FF7FF" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="coreG" x1="0" y1="40" x2="0" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EAFBFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#EAFBFF" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="holoG" x1="430" y1="0" x2="1170" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BFF3FF"/>
+      <stop offset="0.5" stop-color="#E4E1FF"/>
+      <stop offset="1" stop-color="#FFD1EF"/>
+    </linearGradient>
+    <linearGradient id="shimG" x1="0" y1="0" x2="150" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="260 0" to="1340 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="chipSt" x1="556" y1="0" x2="1044" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#59F3FF"/>
+      <stop offset="1" stop-color="#FF7ACF"/>
+    </linearGradient>
+    <linearGradient id="topFaceG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A3A78"/>
+      <stop offset="1" stop-color="#1B2554"/>
+    </linearGradient>
+    <radialGradient id="orbG" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#E9FFFB"/>
+      <stop offset="0.45" stop-color="#59F3FF"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
+    </radialGradient>
+    <radialGradient id="planetG" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#FFD9AE"/>
+      <stop offset="0.55" stop-color="#D97BC0"/>
+      <stop offset="1" stop-color="#6B3FA8"/>
+    </radialGradient>
+    <linearGradient id="crysP" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFA9E2"/><stop offset="1" stop-color="#B15CFF"/></linearGradient>
+    <linearGradient id="crysV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C3B0FF"/><stop offset="1" stop-color="#6B4FE8"/></linearGradient>
+    <linearGradient id="crysC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A6F6FF"/><stop offset="1" stop-color="#4B8CFF"/></linearGradient>
+    <linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FF7FF" stop-opacity="0.35"/><stop offset="1" stop-color="#7FF7FF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="tailG" x1="0" y1="0" x2="-96" y2="-22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#7FF7FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="blurA" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="blurBeam" x="-15%" y="-15%" width="130%" height="130%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="blurName" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="blurSoft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="nameGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feDropShadow dx="0" dy="0" stdDeviation="14" flood-color="#6FE6FF" flood-opacity="0.65"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="30" flood-color="#B96CFF" flood-opacity="0.4"/>
+    </filter>
+    <filter id="glowCyan" x="-80%" y="-80%" width="260%" height="260%"><feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#59F3FF" flood-opacity="0.9"/></filter>
+    <filter id="glowPink" x="-80%" y="-80%" width="260%" height="260%"><feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#FF5FD2" flood-opacity="0.9"/></filter>
+    <filter id="chipGlow" x="-20%" y="-60%" width="140%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#59F3FF" flood-opacity="0.35"/></filter>
+
+    <g id="starS">
+      <path d="M0 -7 Q1.2 -1.6 7 0 Q1.2 1.6 0 7 Q-1.2 1.6 -7 0 Q-1.2 -1.6 0 -7 Z" fill="#EAF6FF"/>
+    </g>
+    <clipPath id="clipPlanet"><circle cx="0" cy="0" r="28"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+
+    @keyframes twk { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+    .tw { animation: twk 3s ease-in-out infinite; }
+    .twB { animation-delay: -1.3s; animation-duration: 4.2s; }
+    .twC { animation-delay: -2.2s; animation-duration: 5s; }
+
+    @keyframes swayK { from { transform: translateX(-26px); } to { transform: translateX(26px); } }
+    .sway1 { animation: swayK 16s ease-in-out infinite alternate; }
+    .sway2 { animation: swayK 22s ease-in-out infinite alternate; animation-delay: -9s; }
+    .sway3 { animation: swayK 19s ease-in-out infinite alternate; animation-delay: -4s; }
+
+    @keyframes flickK { 0%,100% { opacity: .8; } 47% { opacity: 1; } 50% { opacity: .72; } 53% { opacity: .96; } }
+    .beamFlick { animation: flickK 5s ease-in-out infinite; }
+
+    @keyframes holoK { 0%,88%,100% { opacity: 1; } 90% { opacity: .84; } 92% { opacity: .98; } 95% { opacity: .9; } }
+    .holoFlicker { animation: holoK 7s linear infinite; }
+
+    @keyframes riseK { 0% { opacity: 0; transform: translateY(0); } 12% { opacity: .9; } 85% { opacity: .5; } 100% { opacity: 0; transform: translateY(-200px); } }
+    .rise { animation: riseK 5s linear infinite; }
+    .r2 { animation-duration: 4.2s; animation-delay: -1.4s; }
+    .r3 { animation-duration: 5.8s; animation-delay: -2.8s; }
+    .r4 { animation-duration: 4.7s; animation-delay: -3.6s; }
+    .r5 { animation-duration: 5.3s; animation-delay: -.8s; }
+
+    @keyframes blinkK { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+    .blink { animation: blinkK 1.6s ease-in-out infinite; }
+    .ledA { animation: blinkK 1.2s ease-in-out infinite; }
+    .ledB { animation: blinkK 1.7s ease-in-out infinite; animation-delay: -.6s; }
+    .ledC { animation: blinkK 2.1s ease-in-out infinite; animation-delay: -1.1s; }
+
+    @keyframes pulseK { 0%,100% { opacity: .85; transform: scale(1); } 50% { opacity: 1; transform: scale(1.06); } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulseK 3s ease-in-out infinite; }
+    .pulseB { animation-delay: -1.5s; animation-duration: 3.8s; }
+
+    @keyframes dashK { to { stroke-dashoffset: -96; } }
+    .dataflow { animation: dashK 2.4s linear infinite; }
+
+    @keyframes floatK { from { transform: translateY(-4px); } to { transform: translateY(4px); } }
+    .floatA { animation: floatK 4.5s ease-in-out infinite alternate; }
+    .floatB { animation: floatK 5.2s ease-in-out infinite alternate; animation-delay: -2.4s; }
+    .floatC { animation: floatK 3.8s ease-in-out infinite alternate; animation-delay: -1.2s; }
+
+    @keyframes rotorK { 0%,100% { opacity: .45; } 50% { opacity: .9; } }
+    .rotor { animation: rotorK .18s linear infinite; }
+
+    @keyframes scanK { 0%,100% { opacity: .35; } 50% { opacity: .8; } }
+    .scan { animation: scanK 2.2s ease-in-out infinite; }
+
+    @keyframes shootK { 0% { transform: translate(0,0); opacity: 0; } 5% { opacity: 1; } 16% { transform: translate(430px,96px); opacity: 0; } 100% { transform: translate(430px,96px); opacity: 0; } }
+    .shoot { animation: shootK 8.5s linear infinite; animation-delay: 2s; }
+
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- â• deep space â• -->
+  <rect width="1600" height="420" fill="url(#skyG)"/>
+  <ellipse cx="290" cy="110" rx="360" ry="150" fill="url(#nebP)"/>
+  <ellipse cx="1300" cy="180" rx="400" ry="180" fill="url(#nebC)"/>
+  <ellipse cx="860" cy="70" rx="320" ry="120" fill="url(#nebV)"/>
+
+  <!-- starfield -->
+  <g fill="#DCEBFF">
+    <circle class="tw" cx="60" cy="40" r="1.4"/>
+    <circle class="twB tw" cx="150" cy="120" r="1.1"/>
+    <circle class="twC tw" cx="250" cy="70" r="1.7"/>
+    <circle class="tw" cx="390" cy="36" r="1.3"/>
+    <circle class="twB tw" cx="520" cy="84" r="1.2"/>
+    <circle class="twC tw" cx="620" cy="30" r="1.6"/>
+    <circle class="tw" cx="760" cy="52" r="1.2"/>
+    <circle class="twB tw" cx="900" cy="26" r="1.5"/>
+    <circle class="twC tw" cx="1050" cy="64" r="1.2"/>
+    <circle class="tw" cx="1180" cy="38" r="1.7"/>
+    <circle class="twB tw" cx="1290" cy="96" r="1.3"/>
+    <circle class="twC tw" cx="1560" cy="140" r="1.5"/>
+    <circle class="tw" cx="90" cy="210" r="1.2"/>
+    <circle class="twB tw" cx="330" cy="170" r="1.4"/>
+    <circle class="twC tw" cx="1260" cy="180" r="1.4"/>
+    <circle class="tw" cx="1540" cy="240" r="1.3"/>
+    <circle class="twB tw" cx="40" cy="300" r="1.2"/>
+    <circle class="twC tw" cx="1120" cy="120" r="1.1"/>
+  </g>
+  <g transform="translate(210,150)"><use class="tw" href="#starS" transform="scale(0.9)"/></g>
+  <g transform="translate(1330,60)"><use class="twB tw" href="#starS"/></g>
+  <g transform="translate(1500,190) scale(0.85)"><use class="twC tw" href="#starS"/></g>
+  <g transform="translate(100,140) scale(0.7)"><use class="twB tw" href="#starS"/></g>
+
+  <!-- aurora ribbons -->
+  <g class="sway1"><path d="M -60 96 C 240 34 520 128 810 74 C 1080 26 1330 96 1660 48 L 1660 -50 L -60 -50 Z" fill="url(#aurG1)" filter="url(#blurA)"/></g>
+  <g class="sway2"><path d="M -60 132 C 300 66 620 150 940 96 C 1220 50 1420 128 1660 86 L 1660 -50 L -60 -50 Z" fill="url(#aurG2)" filter="url(#blurA)" opacity="0.8"/></g>
+  <g class="sway3"><path d="M -60 60 C 320 108 700 40 1060 84 C 1300 112 1480 66 1660 92" stroke="#FF7ACF" stroke-width="24" fill="none" opacity="0.28" filter="url(#blurA)"/></g>
+
+  <!-- shooting star -->
+  <g transform="translate(140,52)">
+    <g class="shoot">
+      <line x1="0" y1="0" x2="-96" y2="-22" stroke="url(#tailG)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle r="2.6" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- ringed planet + orbiting moon -->
+  <g transform="translate(1448,84)">
+    <g transform="rotate(-18)">
+      <ellipse rx="54" ry="15" stroke="#E3D2FF" stroke-width="2" opacity="0.5" fill="none"/>
+    </g>
+    <circle r="28" fill="url(#planetG)" stroke="#8F76D8" stroke-width="1.5" opacity="0.95"/>
+    <circle cx="9" cy="7" r="28" fill="#1B1147" opacity="0.3" clip-path="url(#clipPlanet)"/>
+    <g transform="rotate(-18)">
+      <path d="M -54 0 A 54 15 0 0 0 54 0" stroke="#F0E4FF" stroke-width="2" opacity="0.85" fill="none"/>
+    </g>
+    <circle r="3.5" fill="#D6E4FF">
+      <animateMotion path="M -70 6 a 70 20 0 1 0 140 0 a 70 20 0 1 0 -140 0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- horizon energy + vignette + void fog -->
+  <ellipse cx="800" cy="435" rx="950" ry="170" fill="url(#horizG)"/>
+  <rect width="1600" height="420" fill="url(#vignG)"/>
+  <ellipse cx="800" cy="468" rx="1050" ry="130" fill="url(#fogG)"/>
+
+  <!-- â• left islet: wind turbine â• -->
+  <g>
+    <path d="M110 255 L215 225 L320 255 L215 285 Z" fill="url(#topFaceG)" stroke="#3D4C8F" stroke-width="1.5"/>
+    <path d="M110 255 L215 285 L215 297 L110 267 Z" fill="#131A42"/>
+    <path d="M215 285 L320 255 L320 267 L215 297 Z" fill="#0D1230"/>
+    <path d="M110 255 L215 285 L320 255" stroke="#59F3FF" stroke-width="2" fill="none" opacity="0.8" filter="url(#glowCyan)"/>
+    <path d="M128 262 L215 292 L302 262 L268 282 L232 300 L196 296 L156 278 Z" fill="#0A0E26" stroke="#2A1E5E" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="215" y1="252" x2="215" y2="168" stroke="#A9BCE8" stroke-width="4" stroke-linecap="round"/>
+    <rect x="207" y="160" width="16" height="10" rx="4" fill="#D6E4FF" stroke="#3D4C8F" stroke-width="1.5"/>
+    <g transform="translate(215,165)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="3.2s" repeatCount="indefinite"/>
+        <path d="M0 0 L4 -6 L2 -34 L-2 -34 L-4 -6 Z" fill="#EAF6FF" stroke="#9FB4E8" stroke-width="1"/>
+        <path d="M0 0 L4 -6 L2 -34 L-2 -34 L-4 -6 Z" fill="#EAF6FF" stroke="#9FB4E8" stroke-width="1" transform="rotate(120)"/>
+        <path d="M0 0 L4 -6 L2 -34 L-2 -34 L-4 -6 Z" fill="#EAF6FF" stroke="#9FB4E8" stroke-width="1" transform="rotate(240)"/>
+      </g>
+      <circle r="3.5" fill="#59F3FF" stroke="#EAF6FF" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- â• right islet: energy crystals â• -->
+  <g>
+    <path d="M1288 242 L1385 214 L1482 242 L1385 270 Z" fill="url(#topFaceG)" stroke="#3D4C8F" stroke-width="1.5"/>
+    <path d="M1288 242 L1385 270 L1385 282 L1288 254 Z" fill="#131A42"/>
+    <path d="M1385 270 L1482 242 L1482 254 L1385 282 Z" fill="#0D1230"/>
+    <path d="M1288 242 L1385 270 L1482 242" stroke="#59F3FF" stroke-width="2" fill="none" opacity="0.8" filter="url(#glowCyan)"/>
+    <path d="M1305 249 L1385 277 L1465 249 L1436 266 L1400 282 L1360 280 L1326 264 Z" fill="#0A0E26" stroke="#2A1E5E" stroke-width="1.5" stroke-linejoin="round"/>
+    <g filter="url(#glowPink)">
+      <path class="pulse" d="M1362 180 L1377 218 L1362 244 L1347 218 Z" fill="url(#crysP)" stroke="#FFB3E4" stroke-width="1.5"/>
+    </g>
+    <path class="pulse pulseB" d="M1400 202 L1412 228 L1400 248 L1388 228 Z" fill="url(#crysV)" stroke="#C9B4FF" stroke-width="1.5"/>
+    <path class="pulse" d="M1338 216 L1348 234 L1338 250 L1328 234 Z" fill="url(#crysC)" stroke="#A6F6FF" stroke-width="1.5"/>
+    <line x1="1362" y1="180" x2="1362" y2="244" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- â• data bridges â• -->
+  <g>
+    <path d="M 312 258 C 400 318 490 346 576 332" stroke="#59F3FF" stroke-width="6" fill="none" opacity="0.22" filter="url(#blurSoft)"/>
+    <path class="dataflow" d="M 312 258 C 400 318 490 346 576 332" stroke="#7FF7FF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="2 10" opacity="0.9"/>
+    <circle r="3" fill="#EAFBFF" filter="url(#glowCyan)">
+      <animateMotion path="M 312 258 C 400 318 490 346 576 332" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M 1290 246 C 1200 310 1110 348 1024 332" stroke="#FF7ACF" stroke-width="6" fill="none" opacity="0.2" filter="url(#blurSoft)"/>
+    <path class="dataflow" d="M 1290 246 C 1200 310 1110 348 1024 332" stroke="#FFA9E2" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="2 10" opacity="0.9"/>
+    <circle r="3" fill="#FFEAF7" filter="url(#glowPink)">
+      <animateMotion path="M 1290 246 C 1200 310 1110 348 1024 332" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- â• main nexus island â• -->
+  <g>
+    <ellipse cx="800" cy="398" rx="250" ry="42" fill="url(#underG)"/>
+    <path d="M590 356 L800 405 L1010 356 L955 380 L900 372 L858 398 L800 416 L742 396 L700 402 L648 378 Z" fill="#0A0E26" stroke="#2A1E5E" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M700 380 Q740 396 786 402" stroke="#FF5FD2" stroke-width="1.5" fill="none" opacity="0.45"/>
+    <path d="M850 398 Q902 388 938 372" stroke="#8B5CFF" stroke-width="1.5" fill="none" opacity="0.45"/>
+    <path d="M575 330 L800 382 L800 404 L575 352 Z" fill="#131A42"/>
+    <path d="M800 382 L1025 330 L1025 352 L800 404 Z" fill="#0D1230"/>
+    <path d="M800 278 L1025 330 L800 382 L575 330 Z" fill="url(#topFaceG)" stroke="#3D4C8F" stroke-width="2"/>
+    <path d="M800 289 L980 330 L800 371 L620 330 Z" fill="none" stroke="#3D4C8F" stroke-width="1.5" opacity="0.7"/>
+    <path d="M575 330 L800 382 L1025 330" stroke="#59F3FF" stroke-width="2.5" fill="none" opacity="0.9" filter="url(#glowCyan)"/>
+    <path d="M575 352 L800 404 L1025 352" stroke="#FF5FD2" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+    <!-- server stack -->
+    <path d="M645 276 L691 287 L691 331 L645 320 Z" fill="#16204D" stroke="#3D4C8F" stroke-width="1.5"/>
+    <path d="M691 287 L715 276 L715 320 L691 331 Z" fill="#0F1738" stroke="#3D4C8F" stroke-width="1.5"/>
+    <path d="M645 276 L669 265 L715 276 L691 287 Z" fill="#232F66" stroke="#3D4C8F" stroke-width="1.5"/>
+    <circle class="ledA" cx="654" cy="288" r="2" fill="#59F3FF"/>
+    <circle class="ledB" cx="663" cy="290" r="2" fill="#FF7ACF"/>
+    <circle class="ledC" cx="672" cy="292" r="2" fill="#55FFA9"/>
+    <circle class="ledB" cx="654" cy="300" r="2" fill="#55FFA9"/>
+    <circle class="ledC" cx="663" cy="302" r="2" fill="#59F3FF"/>
+    <circle class="ledA" cx="672" cy="304" r="2" fill="#FF7ACF"/>
+    <line x1="697" y1="292" x2="710" y2="286" stroke="#3D4C8F" stroke-width="1.5"/>
+    <line x1="697" y1="302" x2="710" y2="296" stroke="#3D4C8F" stroke-width="1.5"/>
+    <line x1="680" y1="270" x2="680" y2="258" stroke="#3D4C8F" stroke-width="2"/>
+    <circle class="blink" cx="680" cy="255" r="2.5" fill="#FF5FD2"/>
+
+    <!-- holo projector -->
+    <ellipse cx="800" cy="330" rx="66" ry="19" fill="url(#padG)"/>
+    <ellipse cx="800" cy="330" rx="66" ry="19" fill="none" stroke="#59F3FF" stroke-width="1.5" opacity="0.55"/>
+    <ellipse cx="800" cy="326" rx="30" ry="9" fill="#1B2656" stroke="#3D4C8F" stroke-width="1.5"/>
+    <path d="M770 326 L770 312 L830 312 L830 326" fill="#1B2656" stroke="#3D4C8F" stroke-width="1.5"/>
+    <ellipse cx="800" cy="312" rx="30" ry="9" fill="#2C3A7A" stroke="#3D4C8F" stroke-width="1.5"/>
+    <circle class="pulse" cx="800" cy="308" r="6.5" fill="#9FF6FF" filter="url(#glowCyan)"/>
+
+    <!-- AI core orb -->
+    <ellipse cx="928" cy="318" rx="16" ry="5" fill="#1B2656" stroke="#3D4C8F" stroke-width="1.5"/>
+    <path d="M912 318 L912 308 L944 308 L944 318" fill="#1B2656" stroke="#3D4C8F" stroke-width="1.5"/>
+    <ellipse cx="928" cy="308" rx="16" ry="5" fill="#2C3A7A" stroke="#3D4C8F" stroke-width="1.5"/>
+    <circle class="pulse pulseB" cx="928" cy="288" r="17" fill="url(#orbG)" filter="url(#glowCyan)"/>
+    <g transform="translate(928,288) rotate(-16)">
+      <ellipse rx="27" ry="8" fill="none" stroke="#FF8AD8" stroke-width="1.8" opacity="0.85"/>
+      <circle r="2.4" fill="#EAFBFF">
+        <animateMotion path="M -27 0 a 27 8 0 1 0 54 0 a 27 8 0 1 0 -54 0" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- beacon -->
+    <line x1="1008" y1="326" x2="1008" y2="300" stroke="#3D4C8F" stroke-width="2.5"/>
+    <circle class="blink" cx="1008" cy="297" r="3.5" fill="#FF5FD2" filter="url(#glowPink)"/>
+  </g>
+
+  <!-- floating rubble -->
+  <g transform="translate(585,392)"><g class="floatA"><path d="M0 -8 L12 -2 L0 5 L-12 -2 Z M-12 -2 L0 5 L0 11 L-12 4 Z M0 5 L12 -2 L12 4 L0 11 Z" fill="#10163A" stroke="#3D4C8F" stroke-width="1.3" stroke-linejoin="round"/></g></g>
+  <g transform="translate(1013,384)"><g class="floatB"><path d="M0 -7 L10 -2 L0 4 L-10 -2 Z M-10 -2 L0 4 L0 9 L-10 3 Z M0 4 L10 -2 L10 3 L0 9 Z" fill="#10163A" stroke="#3D4C8F" stroke-width="1.3" stroke-linejoin="round"/></g></g>
+  <g transform="translate(872,412)"><g class="floatC"><path d="M0 -5 L7 -1 L0 3 L-7 -1 Z" fill="#151C48" stroke="#3D4C8F" stroke-width="1.2" stroke-linejoin="round"/></g></g>
+
+  <!-- â• hologram beam â• -->
+  <g class="beamFlick">
+    <path d="M600 306 L1000 306 L1300 40 L300 40 Z" fill="url(#beamG)" filter="url(#blurBeam)"/>
+    <path d="M770 306 L830 306 L950 40 L650 40 Z" fill="url(#coreG)" filter="url(#blurBeam)"/>
+  </g>
+  <g fill="#CFFAFF">
+    <circle class="rise" cx="722" cy="296" r="2.2"/>
+    <circle class="rise r2" cx="780" cy="300" r="2.8"/>
+    <circle class="rise r3" cx="822" cy="298" r="2"/>
+    <circle class="rise r4" cx="864" cy="294" r="2.5"/>
+    <circle class="rise r5" cx="798" cy="302" r="1.8"/>
+  </g>
+
+  <!-- patrol drone -->
+  <g transform="translate(300,92)">
+    <g>
+      <animateMotion path="M 0 0 C 30 -10 62 -6 80 4 C 52 14 18 12 0 0 Z" dur="10s" repeatCount="indefinite"/>
+      <polygon class="scan" points="-3,9 3,9 14,76 -14,76" fill="url(#scanG)"/>
+      <line x1="-16" y1="-7" x2="16" y2="-7" stroke="#3D4C8F" stroke-width="2.5"/>
+      <ellipse class="rotor" cx="-16" cy="-9" rx="10" ry="2.5" fill="#B9C9F2"/>
+      <ellipse class="rotor" cx="16" cy="-9" rx="10" ry="2.5" fill="#B9C9F2"/>
+      <rect x="-12" y="-6" width="24" height="13" rx="6.5" fill="#202B5F" stroke="#59F3FF" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="2.6" fill="#7FF7FF"/>
+      <circle class="blink" cx="0" cy="9" r="1.8" fill="#FF5FD2"/>
+    </g>
+  </g>
+
+  <!-- â• holographic name â• -->
+  <g>
+    <g class="holoFlicker">
+      <text x="800" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="#59F3FF" opacity="0.5" filter="url(#blurName)">MOHAMMAD UMER</text>
+      <text x="797" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="#33E6FF" opacity="0.5">MOHAMMAD UMER</text>
+      <text x="803" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="#FF66CC" opacity="0.5">MOHAMMAD UMER</text>
+      <text x="800" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="url(#holoG)" stroke="#EAFBFF" stroke-width="1.2" paint-order="stroke" filter="url(#nameGlow)">MOHAMMAD UMER</text>
+      <text x="800" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="url(#shimG)">MOHAMMAD UMER</text>
+    </g>
+  </g>
+
+  <!-- role capsule -->
+  <g filter="url(#chipGlow)">
+    <rect x="556" y="210" width="488" height="44" rx="22" fill="#0A1030" opacity="0.65"/>
+    <rect x="556" y="210" width="488" height="44" rx="22" fill="none" stroke="url(#chipSt)" stroke-width="2"/>
+    <circle class="blink" cx="584" cy="232" r="4" fill="#55FFA9" filter="url(#glowCyan)"/>
+    <text x="812" y="239" text-anchor="middle" font-size="20" font-weight="800" letter-spacing="2" fill="#EAF6FF">CHIEF AI OFFICER @ KANBAN STUDIOS</text>
+  </g>
+
+  <!-- credential tags -->
+  <g>
+    <rect x="56" y="372" width="146" height="30" rx="15" fill="#0C1233" opacity="0.62" stroke="#2E3E7E" stroke-width="1.5"/>
+    <circle cx="74" cy="387" r="3.5" fill="#59F3FF" filter="url(#glowCyan)"/>
+    <text x="137" y="393" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="1.5" fill="#D6E4FF">AGENTIC AI</text>
+  </g>
+  <g>
+    <rect x="216" y="372" width="146" height="30" rx="15" fill="#0C1233" opacity="0.62" stroke="#2E3E7E" stroke-width="1.5"/>
+    <circle cx="234" cy="387" r="3.5" fill="#A78BFF"/>
+    <text x="297" y="393" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="1.5" fill="#D6E4FF">FULL-STACK</text>
+  </g>
+  <g>
+    <rect x="1120" y="372" width="208" height="30" rx="15" fill="#0C1233" opacity="0.62" stroke="#2E3E7E" stroke-width="1.5"/>
+    <circle cx="1138" cy="387" r="3.5" fill="#FF7ACF" filter="url(#glowPink)"/>
+    <text x="1231" y="393" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="1.5" fill="#D6E4FF">INDUSTRY 4.0 / 5.0</text>
+  </g>
+  <g>
+    <rect x="1342" y="372" width="246" height="30" rx="15" fill="#0C1233" opacity="0.62" stroke="#2E3E7E" stroke-width="1.5"/>
+    <circle cx="1360" cy="387" r="3.5" fill="#FFC94D"/>
+    <text x="1471" y="393" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="1.5" fill="#D6E4FF">6&#215; COMPETITION PODIUMS</text>
+  </g>
+</svg>
