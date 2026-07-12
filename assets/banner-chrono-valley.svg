@@ -402,6 +402,7 @@
   <path d="M330 168 L350 152 L392 184 L370 190 Z" fill="#F2F6FF"/>
   <path d="M560 300 L760 138 L880 232 L980 176 L1140 300 Z" fill="url(#mtnG)"/>
   <path d="M726 166 L760 138 L812 180 L780 178 L796 200 L762 192 Z" fill="#F2F6FF"/>
+  <path class="glint" d="M726 166 L760 138 L812 180 L780 178 L796 200 L762 192 Z" fill="#FFFFFF"/>
   <path d="M952 192 L980 176 L1022 210 L988 206 Z" fill="#F2F6FF" opacity="0.85"/>
   <path d="M1080 300 L1240 168 L1330 238 L1420 196 L1560 300 Z" fill="url(#mtnG)" opacity="0.92"/>
   <path d="M1212 190 L1240 168 L1284 202 L1252 198 Z" fill="#F2F6FF"/>
@@ -544,6 +545,22 @@
   <g class="grB"><use href="#reed" transform="translate(662,358) scale(0.85)"/></g>
   <g class="grC"><use href="#reed" transform="translate(676,353) scale(1.1)"/></g>
   <g class="grD"><use href="#reed" transform="translate(634,350) scale(0.7)"/></g>
+  <g class="rip">
+    <ellipse cx="692" cy="400" rx="10" ry="4" fill="#3E9E6E" stroke="#26674C" stroke-width="1.5"/>
+    <path d="M692 400 L 700 397 L 700 403 Z" fill="#4EB87E"/>
+    <circle cx="690" cy="395" r="2.6" fill="#FF9ECC"/>
+    <circle cx="686.5" cy="397.5" r="2" fill="#FFB3D9"/>
+    <circle cx="693.5" cy="397.5" r="2" fill="#FFB3D9"/>
+    <circle cx="690" cy="396.5" r="1.2" fill="#FFD34E"/>
+  </g>
+  <g class="ripB">
+    <ellipse cx="728" cy="408" rx="8" ry="3.4" fill="#3E9E6E" stroke="#26674C" stroke-width="1.5"/>
+    <path d="M728 408 L 735 405.5 L 735 410.5 Z" fill="#4EB87E"/>
+  </g>
+  <g class="ripC">
+    <ellipse cx="1200" cy="400" rx="9" ry="3.6" fill="#3E9E6E" stroke="#26674C" stroke-width="1.5"/>
+    <path d="M1200 400 L 1208 397.4 L 1208 402.6 Z" fill="#4EB87E"/>
+  </g>
 
   <!-- ═ RIGHT SHORE: cottage grounds + lighthouse cliff ═ -->
   <path d="M1240 334 Q 1330 322 1420 328 Q 1520 334 1600 330 L1600 420 L1240 420 Q 1236 372 1240 334 Z" fill="url(#shoreG)"/>
@@ -576,6 +593,10 @@
     <line x1="1300" y1="358" x2="1300" y2="322" stroke="#3A3F63" stroke-width="2.5"/>
     <rect x="1293" y="310" width="14" height="14" rx="2.5" fill="#3A3F63" stroke="#23264A" stroke-width="1.5"/>
     <rect x="1296" y="313" width="8" height="8" rx="1.5" fill="#FFD98A" opacity="0.4"/>
+    <path d="M1465 322 Q 1458 334 1465 346 Q 1470 354 1465 362" fill="none" stroke="#3E7E4E" stroke-width="2"/>
+    <circle cx="1461" cy="330" r="2.4" fill="#4EB87E"/>
+    <circle cx="1467" cy="342" r="2.2" fill="#4EB87E"/>
+    <circle cx="1462" cy="354" r="2" fill="#4EB87E"/>
   </g>
 
   <!-- lighthouse -->
@@ -652,6 +673,20 @@
   <ellipse cx="86" cy="394" rx="10" ry="4.5" fill="#8A87A8" stroke="#5E5B80" stroke-width="1.5"/>
   <ellipse cx="592" cy="402" rx="8" ry="4" fill="#9E9BBE" stroke="#5E5B80" stroke-width="1.5"/>
   <ellipse cx="604" cy="406" rx="5" ry="2.6" fill="#8A87A8" stroke="#5E5B80" stroke-width="1.2"/>
+
+  <!-- campsite: tent + fire ring (flames come alive after dark) -->
+  <g>
+    <polygon points="118,404 148,368 178,404" fill="#E8705D" stroke="#9E3535" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="138,404 148,376 158,404" fill="#B84A3E" stroke="#9E3535" stroke-width="2"/>
+    <line x1="148" y1="368" x2="148" y2="360" stroke="#6B4A3A" stroke-width="2"/>
+    <line x1="178" y1="404" x2="192" y2="410" stroke="#6B4A3A" stroke-width="1.5"/>
+    <line x1="216" y1="406" x2="232" y2="398" stroke="#6B4A3A" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="218" y1="398" x2="230" y2="406" stroke="#5E3E2A" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="210" cy="406" r="2.2" fill="#8A87A8"/>
+    <circle cx="224" cy="410" r="2.4" fill="#9E9BBE"/>
+    <circle cx="238" cy="406" r="2.2" fill="#8A87A8"/>
+    <circle cx="230" cy="402" r="1.8" fill="#B8B4D8"/>
+  </g>
 
   <!-- ═ DAWN MIST over the water ═ -->
   <g class="phDawn">
@@ -774,7 +809,20 @@
       <circle class="ffC" cx="1206" cy="368" r="2" fill="#D8FFB0" filter="url(#glowWarm)"/>
       <circle class="ff" cx="1292" cy="390" r="2.2" fill="#FFE07E" filter="url(#glowWarm)"/>
       <circle class="ffD" cx="1462" cy="376" r="2" fill="#FFE07E" filter="url(#glowWarm)"/>
+      <circle class="ffC" cx="562" cy="390" r="2.2" fill="#FFE07E" filter="url(#glowWarm)"/>
+      <circle class="ff" cx="1054" cy="376" r="1.8" fill="#D8FFB0" filter="url(#glowWarm)"/>
     </g>
+    <g>
+      <circle cx="224" cy="398" r="17" fill="url(#lampHaloG)"/>
+      <g class="flame">
+        <path d="M224 398 Q 217 388 221 379 Q 224 373 227 379 Q 231 388 224 398 Z" fill="#FFB53C" stroke="#E8842A" stroke-width="1.5"/>
+        <path d="M224 396 Q 220 390 223 384 Q 224 381 226 384 Q 228 390 224 396 Z" fill="#FFE07E"/>
+      </g>
+      <circle class="sparkR" cx="220" cy="384" r="1.4" fill="#FFD34E"/>
+      <circle class="sparkR2" cx="227" cy="382" r="1.2" fill="#FFB53C"/>
+      <circle class="sparkR3" cx="223" cy="386" r="1" fill="#FFE07E"/>
+    </g>
+    <line class="ripC" x1="1150" y1="392" x2="1230" y2="392" stroke="#EAF2FF" stroke-width="2" opacity="0.35" stroke-linecap="round"/>
   </g>
 
   <!-- night wildlife: owl on the big pine + bats over the valley -->
@@ -918,6 +966,36 @@
         <g class="flap flapS">
           <path d="M0 0 Q 7 -7 14 0 Q 21 -7 28 0" stroke="#1B1D3E" stroke-width="2.5" stroke-linecap="round" fill="none"/>
         </g>
+      </g>
+    </g>
+    <!-- duck family paddling a loop -->
+    <g transform="translate(880,398)">
+      <g>
+        <animateMotion path="M 0 0 a 80 6 0 1 0 160 0 a 80 6 0 1 0 -160 0" dur="44s" repeatCount="indefinite"/>
+        <g>
+          <ellipse cx="0" cy="0" rx="7" ry="4" fill="#8A6A4E" stroke="#5E4430" stroke-width="1.5"/>
+          <circle cx="6" cy="-5" r="3.2" fill="#2E7D58" stroke="#1C5540" stroke-width="1.2"/>
+          <path d="M9 -5 L 13 -4 L 9 -2.8 Z" fill="#FFB53C"/>
+          <ellipse cx="-14" cy="1" rx="4.5" ry="2.8" fill="#C8A45E" stroke="#8A6A2E" stroke-width="1.2"/>
+          <circle cx="-10.5" cy="-2.5" r="2.2" fill="#D8B46E"/>
+          <ellipse cx="-25" cy="2" rx="4" ry="2.5" fill="#C8A45E" stroke="#8A6A2E" stroke-width="1.2"/>
+          <circle cx="-21.5" cy="-2" r="2" fill="#D8B46E"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- geese migrating at dusk -->
+  <g class="phDusk">
+    <g>
+      <animateMotion path="M -80 108 Q 800 64 1680 118" dur="36s" repeatCount="indefinite"
+        keyTimes="0;0.46;0.64;1" keyPoints="0;0;1;1" calcMode="linear"/>
+      <g class="flap flapS">
+        <path d="M0 0 Q 5 -5 10 0 Q 15 -5 20 0" stroke="#3A2E5E" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        <path d="M-16 8 Q -11 3 -6 8 Q -1 3 4 8" stroke="#3A2E5E" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+        <path d="M-16 -8 Q -11 -13 -6 -8 Q -1 -13 4 -8" stroke="#3A2E5E" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+        <path d="M-32 16 Q -27 11 -22 16 Q -17 11 -12 16" stroke="#3A2E5E" stroke-width="2" stroke-linecap="round" fill="none"/>
+        <path d="M-32 -16 Q -27 -21 -22 -16 Q -17 -21 -12 -16" stroke="#3A2E5E" stroke-width="2" stroke-linecap="round" fill="none"/>
       </g>
     </g>
   </g>
