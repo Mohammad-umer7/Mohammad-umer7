@@ -1,5 +1,5 @@
-<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chrono Valley banner: Mohammad Umer — Chief AI Officer at Kanban Studios. Agentic AI, full-stack, Industry 4.0/5.0, 6x competition podiums. A living painted valley that cycles through dawn, day, dusk and night: the sun arcs and sets, a moon and stars take over, a lighthouse sweeps, trains cross a viaduct, wind turbines spin and fireflies glow.">
-  <title>Mohammad Umer — Chrono Valley, a living day-night world</title>
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chrono Valley banner: Mohammad Umar — Chief AI Officer at Kanban Studios. Agentic AI, full-stack, Industry 4.0/5.0, 6x competition podiums. A living painted valley that cycles through dawn, day, dusk and night: the sun arcs and sets, a moon and stars take over, a lighthouse sweeps, trains cross a viaduct, wind turbines spin and fireflies glow.">
+  <title>Mohammad Umar — Chrono Valley, a living day-night world</title>
 
   <!-- ═══════════════════════════════════════════════════════════════════
        MASTER CLOCK: 36s cycle
@@ -1060,9 +1060,9 @@
   <g>
     <ellipse cx="360" cy="210" rx="330" ry="150" fill="#FFFFFF" opacity="0.14" filter="url(#blurBig)"/>
     <text x="94" y="158" font-size="96" font-weight="900" letter-spacing="3" fill="url(#nameG)" stroke="#FFFFFF" stroke-width="15" paint-order="stroke" stroke-linejoin="round" filter="url(#softDrop)">MOHAMMAD</text>
-    <text x="94" y="256" font-size="96" font-weight="900" letter-spacing="3" fill="url(#nameG)" stroke="#FFFFFF" stroke-width="15" paint-order="stroke" stroke-linejoin="round" filter="url(#softDrop)">UMER</text>
+    <text x="94" y="256" font-size="96" font-weight="900" letter-spacing="3" fill="url(#nameG)" stroke="#FFFFFF" stroke-width="15" paint-order="stroke" stroke-linejoin="round" filter="url(#softDrop)">UMAR</text>
     <text x="94" y="158" font-size="96" font-weight="900" letter-spacing="3" fill="url(#shimG)">MOHAMMAD</text>
-    <text x="94" y="256" font-size="96" font-weight="900" letter-spacing="3" fill="url(#shimG)">UMER</text>
+    <text x="94" y="256" font-size="96" font-weight="900" letter-spacing="3" fill="url(#shimG)">UMAR</text>
     <g transform="translate(408,232)"><use class="twB tw" href="#star4" transform="scale(0.9)"/></g>
     <g transform="translate(660,120)"><use class="twC tw" href="#star4" transform="scale(0.75)"/></g>
   </g>

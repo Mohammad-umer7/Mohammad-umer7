@@ -1,11 +1,11 @@
 <!-- ──────────────────────────────────────────────────────────────── -->
-<!--  Mohammad Umer · GitHub Profile README                          -->
+<!--  Mohammad Umar · GitHub Profile README                          -->
 <!--  Repo: Mohammad-umer7/Mohammad-umer7                            -->
 <!-- ──────────────────────────────────────────────────────────────── -->
 
 <div align="center">
 
-<img src="assets/banner-sunset-garden.svg" width="100%" alt="Mohammad Umer — Chief AI Officer @ Kanban Studios · agentic ai · full-stack · industry 4.0/5.0 · 6x competition podiums — polished cartoon banner with a smiling sun, laptop buddy, hovering AI robot, and a rocket" />
+<img src="assets/banner-sunset-garden.svg" width="100%" alt="Mohammad Umar — Chief AI Officer @ Kanban Studios · agentic ai · full-stack · industry 4.0/5.0 · 6x competition podiums — polished cartoon banner with a smiling sun, laptop buddy, hovering AI robot, and a rocket" />
 
 <h3>Chief AI Officer @ Kanban Studios — I design multi-agent AI systems and ship them as real products.</h3>
 
@@ -15,7 +15,7 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/mohammad-umer-617401350/"><img src="https://img.shields.io/badge/LinkedIn-Mohammad%20Umer-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/mohammad-umer-617401350/"><img src="https://img.shields.io/badge/LinkedIn-Mohammad%20Umar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:omerjamaljn@gmail.com"><img src="https://img.shields.io/badge/Email-omerjamaljn%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://github.com/Mohammad-umer7"><img src="https://img.shields.io/badge/GitHub-Mohammad--umer7-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <!-- Portfolio badge — uncomment and set URL when your portfolio site is live

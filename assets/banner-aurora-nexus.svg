@@ -1,5 +1,5 @@
-﻿<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aurora Nexus banner: Mohammad Umer — Chief AI Officer at Kanban Studios. Agentic AI, full-stack, Industry 4.0/5.0, 6x competition podiums. A floating isometric tech island projects the name as a hologram into an aurora-lit cosmos, with data bridges, a drone, a wind turbine and a ringed planet.">
-  <title>Mohammad Umer — aurora nexus hologram banner</title>
+﻿<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aurora Nexus banner: Mohammad Umar — Chief AI Officer at Kanban Studios. Agentic AI, full-stack, Industry 4.0/5.0, 6x competition podiums. A floating isometric tech island projects the name as a hologram into an aurora-lit cosmos, with data bridges, a drone, a wind turbine and a ringed planet.">
+  <title>Mohammad Umar — aurora nexus hologram banner</title>
 
   <defs>
     <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="420" gradientUnits="userSpaceOnUse">
@@ -351,11 +351,11 @@
   <!-- â• holographic name â• -->
   <g>
     <g class="holoFlicker">
-      <text x="800" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="#59F3FF" opacity="0.5" filter="url(#blurName)">MOHAMMAD UMER</text>
-      <text x="797" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="#33E6FF" opacity="0.5">MOHAMMAD UMER</text>
-      <text x="803" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="#FF66CC" opacity="0.5">MOHAMMAD UMER</text>
-      <text x="800" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="url(#holoG)" stroke="#EAFBFF" stroke-width="1.2" paint-order="stroke" filter="url(#nameGlow)">MOHAMMAD UMER</text>
-      <text x="800" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="url(#shimG)">MOHAMMAD UMER</text>
+      <text x="800" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="#59F3FF" opacity="0.5" filter="url(#blurName)">MOHAMMAD UMAR</text>
+      <text x="797" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="#33E6FF" opacity="0.5">MOHAMMAD UMAR</text>
+      <text x="803" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="#FF66CC" opacity="0.5">MOHAMMAD UMAR</text>
+      <text x="800" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="url(#holoG)" stroke="#EAFBFF" stroke-width="1.2" paint-order="stroke" filter="url(#nameGlow)">MOHAMMAD UMAR</text>
+      <text x="800" y="196" text-anchor="middle" font-size="84" font-weight="900" letter-spacing="4" fill="url(#shimG)">MOHAMMAD UMAR</text>
     </g>
   </g>
 
