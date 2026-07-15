@@ -326,10 +326,11 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [SigNoz/signoz](https://github.com/SigNoz/signoz)
-2. 🔓 Made [Mohammad-umer7/cognee](https://github.com/Mohammad-umer7/cognee) public
-3. ⭐ Starred [topoteretes/cognee](https://github.com/topoteretes/cognee)
-4. 🔓 Made [Mohammad-umer7/finance](https://github.com/Mohammad-umer7/finance) public
+1. 🔓 Made [Mohammad-umer7/Mohammad-umer7](https://github.com/Mohammad-umer7/Mohammad-umer7) public
+2. ⭐ Starred [SigNoz/signoz](https://github.com/SigNoz/signoz)
+3. 🔓 Made [Mohammad-umer7/cognee](https://github.com/Mohammad-umer7/cognee) public
+4. ⭐ Starred [topoteretes/cognee](https://github.com/topoteretes/cognee)
+5. 🔓 Made [Mohammad-umer7/finance](https://github.com/Mohammad-umer7/finance) public
 <!--END_SECTION:activity-->
 
 <sub>⏱ auto-refreshes every 6 hours via GitHub Actions</sub>
