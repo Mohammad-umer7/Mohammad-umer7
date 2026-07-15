@@ -57,7 +57,7 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 - 🚀 **Founder & CTO of XPBridge** — a mobile app I designed, built, and shipped solo to the **Google Play Store**.
 - 🤖 My specialty is **agentic AI that can be trusted**: multi-agent pipelines with deterministic guardrails, compliance critics that can veto, fairness checks, and immutable audit logs — the boring parts done right.
 - 🎓 BSc Software Engineering @ **Al Ain University** (expected 2027) — **CGPA 3.73 / 4.00**, named to the **Honor List three consecutive semesters**.
-- 🏆 **6× competition podiums & honors** across UAE tech events — 2× 1st place (incl. G42's Tamkeen 5.0, Agentic AI track), 1× 2nd, 1× 3rd, plus finalist & championship recognition.
+- 🏆 **7× competition podiums & honors** across UAE tech events — 2× 1st place (incl. G42's Tamkeen 5.0, Agentic AI track), 2× 2nd, 1× 3rd, plus finalist & championship recognition.
 - 🌍 I work in English, Urdu, Hindi and Pashto (fluent), plus basic Arabic — and I ship bilingual EN/AR interfaces by default.
 
 ## 🛠️ What I Build
@@ -70,7 +70,7 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 | 🌐 **Full-Stack Web Apps** | Next.js + FastAPI products deployed on Vercel / Hugging Face Spaces |
 | 📱 **Mobile Apps** | [XPBridge](https://play.google.com/store/apps/details?id=com.xpbridge.app) — live on Google Play (React Native + Supabase) |
 | 🏭 **Industrial Automation & Digital Twins** | ASRS 2.0 smart-warehouse HMIs, Three.js digital twin, Boston Dynamics Spot programming @ EDGE Group |
-| ⚡ **Hackathon Prototypes** | 6+ competition builds — fraud intelligence, worker safety, food security, real-estate compliance |
+| ⚡ **Hackathon Prototypes** | 7+ competition builds — fraud intelligence, worker safety, food security, real-estate compliance, bilingual STEM education |
 
 ## 🧰 Tech Toolbox
 
@@ -236,11 +236,11 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 
 <div align="center">
 
-<img src="assets/awards.svg" width="100%" alt="Competition record: 2× 1st place (Tamkeen 5.0, Replit × IEC), 2nd place (SooqRoot), 3rd place (Kanban Team), Finalist (Common Ground), Recognized (Create Apps Championship)" />
+<img src="assets/awards.svg" width="100%" alt="Competition record: 2× 1st place (Tamkeen 5.0, Replit × IEC), 2× 2nd place (SooqRoot, BridgeLab AI), 3rd place (Kanban Team), Finalist (Common Ground), Recognized (Create Apps Championship)" />
 
 </div>
 
-> 6+ competition builds across agentic AI, safety tech, sustainability, and fintech — in front of some of the UAE's toughest judging panels.
+> 7+ competition builds across agentic AI, safety tech, education, sustainability, and fintech — in front of some of the UAE's toughest judging panels.
 
 | Result | Event | Build | What it does |
 |---|---|---|---|
@@ -250,6 +250,7 @@ I'm a Software Engineering student in Abu Dhabi who builds AI products the whole
 | 🥉 **3rd Place** | **c0mpiled-2 UAE Hackathon** — Yas Marina Circuit (60+ submissions, 150+ participants) | **Kanban Team** | Compliance-first workflow engine simplifying fractional / tokenized real-estate transactions — replacing fragmented manual processes with a single auditable system. [Post →](https://www.linkedin.com/feed/update/urn:li:activity:7429379549936635904/) |
 | 🎖️ **Finalist** | **Global Build Challenge** — Socia (Notch Launch, 2026) | **Common Ground** | AI that auto-reframes messages between technical and executive audiences in real time, preserving intent. [Post →](https://www.linkedin.com/feed/update/urn:li:activity:7447561958754557952/) |
 | 🎖️ **Recognized** | **Create Apps Championship 2025–26** — Dubai Chamber of Digital Economy | Team mobile app | Notable contribution in a team-based mobile app development competition. |
+| 🥈 **2nd Place** | **Safe AI Cup 2026** — University of Dubai (organized by eSafe; hosted with DP World, CyberE71 & Disney as academic partners) | **[BridgeLab AI](https://bridge-lab-ai.vercel.app/)** | Bilingual (EN/AR) STEM lab coach: analyzes a photo/short video of a physical electronics, Arduino, sensor, or robotics setup, detects likely mistakes, and gives **hint-first** guidance — explaining the concept instead of handing over the answer. Recognized for exceptional innovation and responsible use of Generative AI in education. |
 
 **More competition builds on this profile:**
 
